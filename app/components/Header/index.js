@@ -5,14 +5,14 @@ import A from './A';
 import Img from './Img';
 import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
-import Banner from './banner.jpg';
+import Banner from './banner.png';
 import messages from './messages';
 
 function Header() {
   return (
     <div>
       <A href="https://www.reactboilerplate.com/">
-        <Img src={Banner} alt="react-boilerplate - Logo" />
+        <Img src={Banner} alt="Logo" />
       </A>
       <NavBar>
         <HeaderLink to="/">
