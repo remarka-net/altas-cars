@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
   }
 
+  header{
+    height: 300px;
+  }
+
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
