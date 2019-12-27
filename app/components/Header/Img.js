@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import NormalImg from 'components/Img';
 
 const Img = styled(NormalImg)`
-  width: 70%;
+  width: 20%;
   margin: 0 auto;
   display: block;
 `;
