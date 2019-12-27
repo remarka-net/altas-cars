@@ -10,7 +10,7 @@ export const scope = 'boilerplate.containers.FeaturePage';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'Features',
+    defaultMessage: 'правая страничка',
   },
   scaffoldingHeader: {
     id: `${scope}.scaffolding.header`,
@@ -56,7 +56,7 @@ export default defineMessages({
   },
   cssHeader: {
     id: `${scope}.css.header`,
-    defaultMessage: 'Features',
+    defaultMessage: 'Правая страничка',
   },
   cssMessage: {
     id: `${scope}.css.message`,
