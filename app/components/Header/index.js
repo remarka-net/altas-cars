@@ -7,22 +7,31 @@ import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
 import Banner from './banner.jpg';
 import messages from './messages';
+import Logo from './Logo.jpg';
 
 function Header() {
   return (
-    <div>
-      <A href="https://www.reactboilerplate.com/">
-        <Img src={Banner} alt="react-boilerplate - Logo" />
-      </A>
-      <NavBar>
-        <HeaderLink to="/">
-          <FormattedMessage {...messages.home} />
-        </HeaderLink>
-        <HeaderLink to="/features">
-          <FormattedMessage {...messages.features} />
-        </HeaderLink>
-      </NavBar>
-    </div>
+    <header className="main">
+            <Img src={Logo} id="ITM_logo" />
+         
+      <ul id="headlines">
+      <li>
+            <a href="/">Услуги</a>
+          </li>
+          <li>
+            <a href="/">Регламент ТО</a>
+          </li>
+          <li>
+            <a href="/">АвтоНовости</a>
+          </li>
+          <li>
+            <a href="/">АвтоРынок</a>
+          </li>
+          <li>
+            <a href="/">О нас</a>
+          </li>
+        </ul>
+    </header>
   );
 }
 
