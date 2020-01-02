@@ -13,7 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
-import ServicesPage from 'containers/Services/Loadable';
+import ServicesPage from 'containers/ServicesPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
@@ -40,7 +40,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/services" component={ServicesPage} />
+        <Route path="/ServicesPage" component={ServicesPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />

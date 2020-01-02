@@ -5,7 +5,7 @@ import A from './A';
 import Img from './Img';
 import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
-import Banner from './banner.jpg';
+import Banner from './banner.png';
 import messages from './messages';
 import Logo from './Logo.jpg';
 
@@ -16,19 +16,19 @@ function Header() {
          
       <ul id="headlines">
       <li>
-            <a href="/">Услуги</a>
+            <HeaderLink to="/ServicesPage">Услуги</HeaderLink>
           </li>
           <li>
-            <a href="/">Регламент ТО</a>
+            <HeaderLink to="/">Регламент ТО</HeaderLink>
           </li>
           <li>
-            <a href="/">АвтоНовости</a>
+            <HeaderLink to="/">АвтоНовости</HeaderLink>
           </li>
           <li>
-            <a href="/">АвтоРынок</a>
+            <HeaderLink to="/">АвтоРынок</HeaderLink>
           </li>
           <li>
-            <a href="/">О нас</a>
+            <HeaderLink to="/">О нас</HeaderLink>
           </li>
         </ul>
     </header>

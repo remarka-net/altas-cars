@@ -1,6 +1,7 @@
 
 .main{
-    background-image: url("header.jpeg");
+    background-image: url("banner.png");
+    height:150px;
 }
 
 #headlines{
@@ -14,9 +15,8 @@
     color: #000000;
     }
     
-    #headlines ul{
-    margin-left:40px;
-    display: inline-block;
+    #headlines{
+        display: inline;
     }
 
     img{
