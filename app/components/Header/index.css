@@ -1,24 +1,39 @@
 
-.main{
+header{
     background-image: url("banner.png");
-    height:150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 80px;
+    width:100%
 }
 
 #headlines{
-    text-align: center;
-    margin-right: 250px;;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
-    font-size: 13pt;
-    line-height: 33px;
-    color: #000000;
+    margin:0;
+    padding:0;
     }
-    
-    #headlines{
+
+    #headlines li{
         display: inline;
     }
 
-    img{
-       width:100px;
+    .header_contacts{
+        margin-left: 100px;
+        color: #000;
     }
+
+    .header_contacts a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2em;
+        
+    }
+
+    .header_contacts span{
+        font-size: 0.9em;
+    }
+
+    

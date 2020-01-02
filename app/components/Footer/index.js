@@ -12,11 +12,13 @@ function Footer() {
       <section>
         <LocaleToggle />
       </section>
-      <section>
+      <section  style={{backgroundColor: "blue"}}>
+        <hr />
+        <p>Footer</p>
         <FormattedMessage
           {...messages.authorMessage}
           values={{
-            author: <A href="https://twitter.com/mxstbr">Max Stoiber</A>,
+            author: <A href="https://google.com">Pavel</A>,
           }}
         />
       </section>

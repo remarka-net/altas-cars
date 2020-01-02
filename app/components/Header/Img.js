@@ -4,8 +4,7 @@ import NormalImg from 'components/Img';
 
 const Img = styled(NormalImg)`
   width: 20%;
-  margin: 0 auto;
-  display: block;
+  float: left;
 `;
 
 export default Img;

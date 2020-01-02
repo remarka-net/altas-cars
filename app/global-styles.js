@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   header{
-    height: 300px;
+    height: 150px;
   }
 
   body {
@@ -21,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   #app {
-    background-color: #fafafa;
     min-height: 100%;
     min-width: 100%;
   }
