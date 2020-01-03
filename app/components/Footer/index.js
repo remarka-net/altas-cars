@@ -13,12 +13,20 @@ import Social from './social';
 
 function Footer() {
   return (
+    <div>
     <Wrapper>
+      <div id="footer_content">
       <ItemList />
       <ItemList1 />
       <ItemList2 />
       <Social />
+      </div>
+
+      <p className="copyright">Copyright © ALTAS Ltd. Все права защищены</p>
     </Wrapper>
+
+
+    </div>
   );
 }
 

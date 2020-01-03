@@ -3,7 +3,25 @@
     font-weight: 900;
 }
 
+#footer_content{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+
+.copyright{
+    margin-top:40px;
+}
+
+#wrapper{
+    text-align: center;
+    font-size: 1.2em;
+}
+
 .social_icons{
+    margin:0 auto;
+    width: 160px;
     display:flex;
     justify-content: space-between;
 }

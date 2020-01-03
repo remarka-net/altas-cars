@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 
   Footer{
     height:300px;
+    background: linear-gradient(180deg, rgba(0, 128, 255, 0) 0%, rgba(80, 160, 237, 0.7) 18.23%, rgba(80, 160, 237, 0.8) 44.79%, #0060FF 99.48%);
   }
 
 
@@ -32,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
 
   p,
   label {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Exo 2', sans-serif;
     line-height: 1.5em;
   }
 `;
