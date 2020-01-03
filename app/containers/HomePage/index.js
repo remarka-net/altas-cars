@@ -15,8 +15,6 @@ export default function Fruits() {
       <p id="fruits">Предлагаем для вас услуги планового ТО автомобиля</p>
       <img width="100%" src="https://autobet.com.ua/wp-content/uploads/2019/02/pic-2.jpg" />
 
-   
-   
     </div>
   );
 }
