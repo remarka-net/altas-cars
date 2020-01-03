@@ -1,0 +1,9 @@
+
+.footer_headline{
+    font-weight: 900;
+}
+
+.social_icons{
+    display:flex;
+    justify-content: space-between;
+}

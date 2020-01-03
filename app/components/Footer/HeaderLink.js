@@ -9,15 +9,13 @@ export default styled(Link)`
   user-select: none;
   cursor: pointer;
   outline: 0;
-  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 3px;
   color: #040638;
-  border-bottom: 1px solid #040638;
   padding-bottom: 1em;
-  min-width: 135px;
+  min-width: 35px;
 
   &:active {
     color: #fff;
