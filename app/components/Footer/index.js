@@ -9,19 +9,7 @@ import messages from './messages';
 function Footer() {
   return (
     <Wrapper>
-      <section>
-        <LocaleToggle />
-      </section>
-      <section  style={{backgroundColor: "blue"}}>
-        <hr />
-        <p>Footer</p>
-        <FormattedMessage
-          {...messages.authorMessage}
-          values={{
-            author: <A href="https://google.com">Pavel</A>,
-          }}
-        />
-      </section>
+     
     </Wrapper>
   );
 }

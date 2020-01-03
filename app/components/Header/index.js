@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import { FormattedMessage } from 'react-intl';
 
 import Img from './Img';
@@ -6,12 +7,12 @@ import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
 import messages from './messages';
 import Logo from './Logo.png';
-import './index.css';
+
 
 function Header() {
   return (
     <header className="main">
-            <Img src={Logo} id="Logo" />
+        <Img src={Logo} id="Logo" />
          
       <ul id="headlines">
       <li>
@@ -33,15 +34,13 @@ function Header() {
 
     <div className="header_contacts">
       <p>
-      <a href="tel:+380953160534">+38(095)-316-05-34</a>
+      <a href="tel:+380953160534">(095)-316-05-34</a>
       </p>
-
 
       <p>
-        <a href="tel:+380982250534">+38(098)-225-05-34</a>
+        <a href="tel:+380982250534">(098)-225-27-47</a>
       </p>
 
-      <br />
       <span>с 9 до 21 без выходных</span>
 
       </div>

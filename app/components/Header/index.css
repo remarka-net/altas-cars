@@ -5,13 +5,12 @@ header{
     align-items: center;
     flex-direction: row;
     min-height: 80px;
-    width:100%
+    padding:0;
+    margin:0;
 }
 
 #headlines{
-    font-family: Roboto;
     font-style: normal;
-    font-weight: 700;
     margin:0;
     padding:0;
     }
@@ -21,19 +20,28 @@ header{
     }
 
     .header_contacts{
-        margin-left: 100px;
+        margin-left: 150px;
         color: #000;
     }
 
     .header_contacts a{
         text-decoration: none;
         color: #000;
-        font-size: 1.2em;
+        font-size: 1.3em;
+        font-family: 'Exo 2', sans-serif;
         
+    }
+
+    .header_contacts p{
+        line-height: 30px;
+        padding: 0;
+        margin: 0;
     }
 
     .header_contacts span{
         font-size: 0.9em;
+        font-family: 'Exo 2', sans-serif;
+
     }
 
     

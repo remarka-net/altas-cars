@@ -20,7 +20,7 @@ export default function FeaturePage() {
           content="Feature page of React.js Boilerplate application"
         />
       </Helmet>
-      <H1>Hello world!</H1>
+      <H1>Наши услуги</H1>
       <List>
         <ListItem>
           <p>Hello world1</p>

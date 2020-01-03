@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export default styled(Link)`
-  padding: 0.25em 2em;
+  padding: 0.4em 2em;
   margin: 1em;
   text-decoration: none;
   border-radius: 4px;
@@ -11,11 +11,11 @@ export default styled(Link)`
   user-select: none;
   cursor: pointer;
   outline: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: normal;
   font-size: 16px;
-  border: 2px solid #41addd;
-  color: #41addd;
+  border: 2px solid #fff;
+  color: #000;
 
   &:active {
     background: #41addd;

@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
     height: 150px;
   }
 
+  Footer{
+    height:300px;
+  }
+
+
   body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
