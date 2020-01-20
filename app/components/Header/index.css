@@ -20,14 +20,14 @@ header{
     }
 
     .header_contacts{
-        margin-left: 150px;
+        margin-left: 130px;
         color: #000;
     }
 
     .header_contacts a{
         text-decoration: none;
         color: #000;
-        font-size: 1.3em;
+        font-size: 1.4em;
         font-family: 'Exo 2', sans-serif;
         
     }
@@ -39,7 +39,7 @@ header{
     }
 
     .header_contacts span{
-        font-size: 0.9em;
+        font-size: 0.95em;
         font-family: 'Exo 2', sans-serif;
 
     }

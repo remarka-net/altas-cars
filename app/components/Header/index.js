@@ -19,13 +19,13 @@ function Header() {
             <HeaderLink to="/ServicesPage">Услуги</HeaderLink>
           </li>
           <li>
-            <HeaderLink to="/">Регламент ТО</HeaderLink>
+            <HeaderLink to="/RepairPage">Регламент ТО</HeaderLink>
           </li>
           <li>
             <HeaderLink to="/">АвтоНовости</HeaderLink>
           </li>
           <li>
-            <HeaderLink to="/">АвтоРынок</HeaderLink>
+            <HeaderLink to="/">Торговая площадка</HeaderLink>
           </li>
           <li>
             <HeaderLink to="/">О нас</HeaderLink>

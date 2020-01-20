@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export default styled(Link)`
-  padding: 0.4em 2em;
+  padding: 0.4em 1.5em;
   margin: 1em;
   text-decoration: none;
   border-radius: 4px;
