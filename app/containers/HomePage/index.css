@@ -1,26 +1,188 @@
 
 
-#fruits{
+#main_div{
     font-family: 'Exo 2', sans-serif;
     background-image: url('./main_pic.jpg');
     background-size: 100%;
     height:100vh;
     width: inherit;
+    text-align: center;
 }
 
 .main_header{
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 27px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #FFFFFF;
-margin-left: 100px;
-margin-right: 100px;
-margin-top: 50px;
-backdrop-filter: blur(100px);
-
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 26px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    max-width: max-content;
+    backdrop-filter: blur(4px);
+    animation: fadein 1.5s;
+    background-color: rgba(255, 255, 255, 0.5);
 }
+
+#MainPart{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding:0 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.Item_wrapper{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.car_item1,.car_item2, .car_item3, .car_item4, .car_item5, .car_item6{
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:16px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(248, 148, 6, 1);
+    border-radius: 10px;
+}
+
+.car_item1{
+    left:30px;
+    top:220px;
+}
+
+
+.car_item2{
+    left:420px;
+    top:120px;
+}
+
+.car_item3{
+    left:500px;
+    top:600px;
+}
+
+.car_item4{
+    max-width: 100%;
+    left:800px;
+    top:120px;
+}
+
+.car_item5{
+    left:900px;
+    top:500px;
+}
+
+.car_item6{
+    left:150px;
+    top:590px;
+}
+
+.car_item1 span, .car_item2 span, .car_item3 span, .car_item4 span, .car_item5 span, .car_item6 span{
+    padding-right: 25px;
+    background-image: url('clone-regular.svg');
+    background-position:right;
+}
+
+
+.car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
+    position: relative;
+    font-size: 14px;
+    line-height: 15px;
+    padding:5px;
+    margin: 0;
+    border-radius: 5px;
+    max-width:300px;
+    z-index:1;
+    visibility: hidden;
+}
+
+.car_item1_extend{
+    top: 100px;
+    left: 30px;
+}
+
+.car_item2_extend{
+    top: -40px;
+    left: 320px;
+}
+
+.car_item3_extend{
+    top: 480px;
+    left: 426px;
+}
+
+.car_item4_extend{
+    top: -106px;
+    left: 796px;
+}
+
+.car_item5_extend{
+    top: 316px;
+    left: 816px;
+}
+
+.car_item6_extend{
+    top: 366px;
+    left: 46px;
+}
+
+.car_item1:hover ~ .car_item1_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+.car_item2:hover ~ .car_item2_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+.car_item3:hover ~ .car_item3_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+.car_item4:hover ~ .car_item4_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+.car_item5:hover ~ .car_item5_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+.car_item6:hover ~ .car_item6_extend {
+    background-color: rgba(255,255,255, 0.9);
+    visibility: visible;
+    animation: fadein 1.5s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* #container:hover ~ #cube { background-color: yellow; } */
+
+/*  It's example of hover code
+.sibling-hover, #parent {
+    cursor: pointer;
+}
+.sibling-hover:hover ~ .sibling-highlight {
+    background-color: red;
+    color: white;
+}
+*/
