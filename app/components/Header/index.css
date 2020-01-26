@@ -20,7 +20,8 @@ header{
     }
 
     .header_contacts{
-        margin-left: 130px;
+        position:absolute;
+        right:5%;
         color: #000;
     }
 

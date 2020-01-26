@@ -10,10 +10,13 @@ import main_pic from './main_pic.jpg';
 
 export default function Fruits() {
   return (
+    <div className="main_wrapper">
     <div id="main_div">
       <div id="MainPart">
         <div className="MainPart-items">
+          <br />
           <h2 className="main_header"> Предлагаем полный спектр услуг</h2>
+
           <div className="item_wrapper">
             <div className="car_item1">
               <span>Проверка и диагностика двигателя</span>
@@ -60,6 +63,16 @@ export default function Fruits() {
           </div>
         </div>
       </div>
+
+
     </div>
+
+    <div class="our_service">
+    <h3>Предлагаем для вас услуги планового ТО автомобиля</h3>
+    </div>
+
+
+  </div>
+
   );
 }

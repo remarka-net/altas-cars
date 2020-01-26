@@ -1,7 +1,15 @@
 
 
-#main_div{
+.main_wrapper{
     font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+#main_div{
+    margin-top: 0;
+    padding-top: 0;
     background-image: url('./main_pic.jpg');
     background-size: 100%;
     height:100vh;
@@ -13,10 +21,11 @@
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 26px;
+    line-height: 0;
+    margin-top: 0;
     margin-left:auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     color: #000;
     max-width: max-content;
@@ -25,12 +34,14 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+
 #MainPart{
     max-width: 1200px;
     width: 100%;
+    height: min-content;
     margin: 0 auto;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     padding:0 10px;
     box-sizing: border-box;
     outline: none;
@@ -42,7 +53,7 @@
 }
 
 .car_item1,.car_item2, .car_item3, .car_item4, .car_item5, .car_item6{
-    position: absolute;
+    position: relative;
     padding-left: 10px;
     padding-right: 10px;
     font-size:16px;
@@ -50,22 +61,23 @@
     cursor: pointer;
     background-color: rgba(248, 148, 6, 1);
     border-radius: 10px;
+    z-index: 2;
 }
 
 .car_item1{
-    left:30px;
-    top:220px;
+    left:-420px;
+    top:170px;
 }
 
 
 .car_item2{
-    left:420px;
-    top:120px;
+    left:-90px;
+    top:10px;
 }
 
 .car_item3{
-    left:500px;
-    top:600px;
+    left:100px;
+    top:-10px;
 }
 
 .car_item4{
@@ -109,7 +121,7 @@
 }
 
 .car_item2_extend{
-    top: -40px;
+    top: -60px;
     left: 320px;
 }
 
