@@ -4,20 +4,18 @@
     font-family: 'Exo 2', sans-serif;
     padding: 0;
     margin: 0;
-    background-color: red;
 }
 
 #main_div{
-    margin-top: 0;
-    padding-top: 0;
     background-image: url('./main_pic.jpg');
-    background-size: 100%;
-    height:100vh;
+    background-size: 100% 100%;
+    height:874px;
     width: inherit;
     text-align: center;
+    position: relative;
 }
 
-.main_header{
+.main_header{  /* h2 */
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -36,24 +34,17 @@
 
 
 #MainPart{
-    max-width: 1200px;
-    width: 100%;
-    height: min-content;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-    padding:0 10px;
+    margin:auto;
+    text-align: center;
+    width:1000px;
+    height:700px;
     box-sizing: border-box;
-    outline: none;
 }
 
-.Item_wrapper{
-    flex-wrap: wrap;
-    display: flex;
-}
+
 
 .car_item1,.car_item2, .car_item3, .car_item4, .car_item5, .car_item6{
-    position: relative;
+    position: absolute;
     padding-left: 10px;
     padding-right: 10px;
     font-size:16px;
@@ -61,39 +52,40 @@
     cursor: pointer;
     background-color: rgba(248, 148, 6, 1);
     border-radius: 10px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .car_item1{
-    left:-420px;
-    top:170px;
+    left:20%;
+    top:250px;
 }
 
 
 .car_item2{
-    left:-90px;
-    top:10px;
+    left:45%;
+    top:180px;
 }
 
 .car_item3{
-    left:100px;
-    top:-10px;
+    left: 40%;
+    top: 800px;
 }
 
 .car_item4{
     max-width: 100%;
-    left:800px;
-    top:120px;
+    left:65%;
+    top:180px;
 }
 
 .car_item5{
-    left:900px;
-    top:500px;
+    left:65%;
+    top:700px;
+    min-width:200px;
 }
 
 .car_item6{
-    left:150px;
-    top:590px;
+    left:10%;
+    top:750px;
 }
 
 .car_item1 span, .car_item2 span, .car_item3 span, .car_item4 span, .car_item5 span, .car_item6 span{
@@ -104,7 +96,7 @@
 
 
 .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
-    position: relative;
+    position: absolute;
     font-size: 14px;
     line-height: 15px;
     padding:5px;
@@ -116,33 +108,33 @@
 }
 
 .car_item1_extend{
-    top: 100px;
-    left: 30px;
+    top: 200px;
+    left: 20%;
 }
 
 .car_item2_extend{
-    top: -60px;
-    left: 320px;
+    top: 130px;
+    left: 41%;
 }
 
 .car_item3_extend{
-    top: 480px;
-    left: 426px;
+    top: 750px;
+    left: 37%;
 }
 
 .car_item4_extend{
-    top: -106px;
-    left: 796px;
+    top: 150px;
+    left: 66%;
 }
 
 .car_item5_extend{
-    top: 316px;
-    left: 816px;
+    top: 650px;
+    left: 61%;
 }
 
 .car_item6_extend{
-    top: 366px;
-    left: 46px;
+    top: 700px;
+    left: 5%;
 }
 
 .car_item1:hover ~ .car_item1_extend {

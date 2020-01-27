@@ -1,18 +1,20 @@
 import React from 'react';
 import './index.css';
 import { FormattedMessage } from 'react-intl';
+import { Link } from 'react-router-dom';
 
 import Img from './Img';
 import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
 import messages from './messages';
 import Logo from './Logo.png';
+import HeaderLink2 from './HeaderLink2';
 
 
 function Header() {
   return (
     <header className="main">
-        <Img src={Logo} id="Logo" />
+        <HeaderLink2 to="/"><Img src={Logo} id="Logo" /></HeaderLink2>
          
       <ul id="headlines">
       <li>
