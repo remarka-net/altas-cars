@@ -14,7 +14,7 @@ export default function Fruits() {
       <div id="main_div">
         <div id="MainPart">
             <br />
-            <h2 className="main_header"> Предлагаем полный спектр услуг</h2>
+            <h2 className="main_header">Автосервис ALTAS готов предложить вам полный спектр услуг</h2>
 
               <div className="car_item1">
                 <span>Проверка и диагностика двигателя</span>
@@ -63,7 +63,28 @@ export default function Fruits() {
 
 
       <div className="our_service">
-        <h3>Предлагаем для вас услуги планового ТО автомобиля</h3>
+
+        <h3 className="second_headline">Предлагаем для вас услуги планового ТО автомобиля</h3>
+
+        <form name="test" method="post" action="input1.php">
+  <p><b>Ваше имя:</b><br>
+   <input type="text" size="40">
+  </p>
+  <p><b>Каким браузером в основном пользуетесь:</b><br>
+   <input type="radio" name="browser" value="ie"> Internet Explorer<br>
+   <input type="radio" name="browser" value="opera"> Opera<br>
+   <input type="radio" name="browser" value="firefox"> Firefox<br>
+  </p>
+  <p>Комментарий<br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+ </form>
+
+{/*TODO make forms with Formik */}
+
+
+
       </div>
 
     </div>
