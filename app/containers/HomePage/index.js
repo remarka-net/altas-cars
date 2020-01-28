@@ -6,6 +6,7 @@
 
 import React from 'react';
 import './index.css';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import main_pic from './main_pic.jpg';
 
 export default function Fruits() {
@@ -66,21 +67,7 @@ export default function Fruits() {
 
         <h3 className="second_headline">Предлагаем для вас услуги планового ТО автомобиля</h3>
 
-        <form name="test" method="post" action="input1.php">
-  <p><b>Ваше имя:</b><br>
-   <input type="text" size="40">
-  </p>
-  <p><b>Каким браузером в основном пользуетесь:</b><br>
-   <input type="radio" name="browser" value="ie"> Internet Explorer<br>
-   <input type="radio" name="browser" value="opera"> Opera<br>
-   <input type="radio" name="browser" value="firefox"> Firefox<br>
-  </p>
-  <p>Комментарий<br>
-   <textarea name="comment" cols="40" rows="3"></textarea></p>
-  <p><input type="submit" value="Отправить">
-   <input type="reset" value="Очистить"></p>
- </form>
-
+     
 {/*TODO make forms with Formik */}
 
 
