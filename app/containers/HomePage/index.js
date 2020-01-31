@@ -6,9 +6,8 @@
 
 import React from 'react';
 import './index.css';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
 import main_pic from './main_pic.jpg';
-import Forms from "../../components/Custom_form/index2";
+import MyForm from "../../components/Custom_form/index";
 
 export default function Fruits() {
   return (
@@ -64,15 +63,15 @@ export default function Fruits() {
         </div>
 
 
-      <div className="our_service">
+        <div className="our_service">
 
         <h3 className="second_headline">Предлагаем для вас услуги планового ТО автомобиля</h3>
 
      
-{/*TODO make forms with Formik */}
 
-        <Forms />
-      </div>
+        <MyForm />
+
+        </div>
 
     </div>
     

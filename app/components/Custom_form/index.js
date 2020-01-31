@@ -1,42 +1,44 @@
-import React from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import React, { Component } from 'react';
+import './index.css';
+import axios from 'axios';
 
-const Basic = () => (
-  <div>
-    <h1>Any place in your app!</h1>
-    <Formik
-      initialValues={{ email: '', password: '' }}
-      validate={values => {
-        const errors = {};
-        if (!values.email) {
-          errors.email = 'Required';
-        } else if (
-          !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-        ) {
-          errors.email = 'Invalid email address';
-        }
-        return errors;
-      }}
-      onSubmit={(values, { setSubmitting }) => {
-        setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
-          setSubmitting(false);
-        }, 400);
-      }}
-    >
-      {({ isSubmitting }) => (
-        <Form>
-          <Field type="email" name="email" />
-          <ErrorMessage name="email" component="div" />
-          <Field type="password" name="password" />
-          <ErrorMessage name="password" component="div" />
-          <button type="submit" disabled={isSubmitting}>
-            Submit
-          </button>
-        </Form>
-      )}
-    </Formik>
-  </div>
-);
 
-export default Basic;
+
+
+class MyForm extends Component {
+
+  return(
+
+<div class="container">
+
+<div class="row">
+  <div class="col-sm-4">
+    <form action="mail.php" method="POST">
+      <legend>Заголовок формы</legend>
+
+      <div class="form-group">
+        <label for="">Введите ваше имя</label>
+        <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+      </div>
+    
+      <div class="form-group">
+        <label for="">Введите номер телефона</label>
+        <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
+      </div>
+    
+      <div class="form-group">
+        <label for="">Введите email</label>
+        <input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
+      </div>
+    
+      <button type="submit" class="btn btn-primary">Отправить форму</button>
+    </form>
+  </div><!-- .col-sm-4 -->
+</div> <!-- .row -->
+
+</div><!-- /.container -->
+
+  );
+  }
+
+  export default MyForm
