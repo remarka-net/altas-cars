@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
+import './mail.php';
 import axios from 'axios';
 
 
