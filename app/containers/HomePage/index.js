@@ -59,8 +59,8 @@ export default function Fruits() {
             Полная юридическая проверка авто при продаже, а также сопровождение
             сделки.
           </div>
+
         </div>
-      </div>
       </div>
 
       <div className="our_service">
@@ -69,8 +69,10 @@ export default function Fruits() {
           Предлагаем для вас услуги планового ТО автомобиля
         </h3>
 
-        <MyForm />
+        <div> <MyForm /></div>
+       
       </div>
+      
     </div>
   );
 }
