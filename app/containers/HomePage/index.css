@@ -4,6 +4,7 @@
     font-family: 'Exo 2', sans-serif;
     padding: 0;
     margin: 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #main_div{
@@ -28,8 +29,7 @@
     color: #000;
     max-width: max-content;
     backdrop-filter: blur(4px);
-    animation: fadein 1.5s;
-    background-color: rgba(255, 255, 255, 0.5);
+    animation: fadein 1.5s
 }
 
 
@@ -193,6 +193,9 @@
 
 .our_service{
     background-color: #ECEDEE;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid red;
 }
 
 .second_headline{
@@ -201,4 +204,8 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 0;
+}
+
+.form_wrapper{
+    float: left;
 }

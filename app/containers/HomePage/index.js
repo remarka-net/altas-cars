@@ -7,7 +7,8 @@
 import React from 'react';
 import './index.css';
 import main_pic from './main_pic.jpg';
-import MyForm from '../../components/Custom_form/index';
+import MyForm from '../../components/MyForm/Form';
+import image from 'image.jpg';
 
 export default function Fruits() {
   return (
@@ -68,9 +69,8 @@ export default function Fruits() {
         <h3 className="second_headline">
           Предлагаем для вас услуги планового ТО автомобиля
         </h3>
-
-        <div> <MyForm /></div>
-       
+         <MyForm />
+         <img src={Image} alt="image"/>
       </div>
       
     </div>
