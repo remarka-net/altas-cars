@@ -26,10 +26,11 @@
     margin-right: auto;
     padding: 20px;
     border-radius: 5px;
-    color: #000;
+    color: #fff;
+    border-radius: 10px;
     max-width: max-content;
     backdrop-filter: blur(4px);
-    animation: fadein 1.5s
+    animation: fadein 2s
 }
 
 
@@ -58,34 +59,40 @@
 .car_item1{
     left:20%;
     top:250px;
+    animation: fadein 2s;
 }
 
 
 .car_item2{
     left:45%;
     top:180px;
+    animation: fadein 3s;
 }
 
 .car_item3{
     left: 40%;
     top: 800px;
+    animation: fadein 4s;
 }
 
 .car_item4{
     max-width: 100%;
     left:65%;
     top:180px;
+    animation: fadein 5s;
 }
 
 .car_item5{
     left:65%;
     top:700px;
     min-width:200px;
+    animation: fadein 6s;
 }
 
 .car_item6{
     left:10%;
     top:750px;
+    animation: fadein 7s;
 }
 
 .car_item1 span, .car_item2 span, .car_item3 span, .car_item4 span, .car_item5 span, .car_item6 span{
@@ -193,9 +200,24 @@
 
 .our_service{
     background-color: #ECEDEE;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 1px solid red;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    height: min-content;
+    width: 100%;
+    text-align: center;
+}
+
+.our_service img{
+    width:45%;
+    border-radius: 20px;
+}
+
+.our_service article{
+    text-align: left;
+    border-left: 4px solid #50A0ED;
+    margin-top: 30px;
+    padding-left: 10px;
 }
 
 .second_headline{
@@ -204,8 +226,34 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 0;
+    padding-bottom: 20px;
 }
 
-.form_wrapper{
+.contact-form{
     float: left;
+}
+
+.our_service figcaption{
+    font-size: 24px;
+}
+
+.our_service article{
+    font-size: 20px;
+}
+
+.main_wrapper h4{
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.map_contacts{
+    background-color: #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: min-content;
+    width: 100%;
+    text-align: center;
 }

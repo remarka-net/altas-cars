@@ -25,3 +25,11 @@
     display:flex;
     justify-content: space-between;
 }
+
+.social_icons img{
+    cursor:pointer;
+}
+
+#wrapper p{
+    margin-top: 5px;
+}

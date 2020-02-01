@@ -10,14 +10,14 @@ export default function ContactUs() {
     emailjs.sendForm('gmail', 'template_hsjTwTVo', e.target, 'user_gVUee7bxzx7Obe10GOfuU')
       .then((result) => {
           console.log(result.text);
+          document.getElementsByClassName("contact-form").reset();
       }, (error) => {
           console.log(error.text);
       });
   }
 
-  return (
 
-      <div className="form_wrapper">
+  return (
 
     <form className="contact-form" onSubmit={sendEmail}>
         <label>Предварительный заказ</label>
@@ -32,6 +32,5 @@ export default function ContactUs() {
       <input type="submit" value="Сделать заказ" />
     </form>
 
-    </div>
   );
 }

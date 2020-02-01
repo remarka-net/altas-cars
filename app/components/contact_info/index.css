@@ -1,0 +1,40 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border-radius: 20px;
+    border:none;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border:none;
+}
+
+.textBlock1{
+    margin: auto;
+    text-align: left;
+   
+}
+
+.textBlock2{
+    margin: auto;
+    text-align: left;
+}
+
+.infoBlock{
+    margin-bottom: 20px;
+    font-size: 24px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+ h4{
+    font-size: 30px;
+    text-align: center;
+}
