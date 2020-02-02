@@ -10,13 +10,11 @@ export default function ContactUs() {
     emailjs.sendForm('gmail', 'template_hsjTwTVo', e.target, 'user_gVUee7bxzx7Obe10GOfuU')
       .then((result) => {
           console.log(result.text);
-          document.getElementsByClassName("contact-form").reset();
+          document.location.reload(true);
       }, (error) => {
           console.log(error.text);
       });
   }
-
-
   return (
 
     <form className="contact-form" onSubmit={sendEmail}>
