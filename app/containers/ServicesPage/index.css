@@ -1,0 +1,86 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative; 
+  height: content; 
+  font-size: 2em;
+  padding:20px;
+  border: solid 2px blue;
+  border-radius: 30px;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: blue;
+  top: 50%;
+  width: 1000px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 0;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 0;
+}
+
+.Services_headline{
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;;
+}
+
+.car_repair{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.main_car_repair{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.main_car_repair img:not(.service_car) {
+  flex:none;
+  width: 5%;
+}
+
+.service_car{
+  flex:none;
+  max-width:70%;
+}
+
+
+
+.car_repair:not(.service_car) img{
+  width:5%;
+}
+
+.service_order{
+  margin-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.service_order_pic {
+  width:50%;
+  float:left;
+}
+
+
