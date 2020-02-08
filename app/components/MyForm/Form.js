@@ -16,12 +16,19 @@ export default function ContactUs() {
       .then(
         result => {
           console.log(result.text);
-          document.location.reload(true);
+          alert("Спасибо, мы свяжемся с вами в ближайшее время");
+            document.location.reload(true);
+            
+
+          /*if (document.location.onload = (true)){alert('window onload');} */
         },
         error => {
           console.log(error.text);
         },
       );
+      function loadImage(){
+        alert("hello world!");
+      }
   }
   return (
     <form className="contact-form" onSubmit={sendEmail}>
@@ -30,11 +37,16 @@ export default function ContactUs() {
 
       <input required type="text" placeholder="Ваше ФИО*" name="user_name" />
 
-      <input required type="numeric" placeholder="Номер телефона*" name="user_phone" />
+      <input
+        required
+        type="numeric"
+        placeholder="Номер телефона*"
+        name="user_phone"
+      />
 
       <input type="email" placeholder="E-mail" name="user_email" />
 
-      <input type="submit" value="Сделать заказ" />
+      <input type="submit" value="Сделать заказ"  />
     </form>
   );
 }

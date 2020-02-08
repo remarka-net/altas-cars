@@ -66,21 +66,55 @@
   max-width:70%;
 }
 
-
-
 .car_repair:not(.service_car) img{
   width:5%;
 }
 
 .service_order{
   margin-top: 50px;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display:flex;
 }
 
 .service_order_pic {
   width:50%;
   float:left;
+  display: block;
+}
+
+.service_order_article{
+  width: 50%;
+  float:left;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #C4C4C4;
+  height:inherit;
+  text-align: center;
+}
+
+.service_order_article span{
+  text-align: center;
+  display: block;
+  font-size: 1.3em;
+}
+
+.service_order_article p{
+  text-align: left;
+  font-size: 1em;
+}
+
+.service_order_article button{
+  margin-top: 10%;
+  background-color: #FFD000;
+  font-size: 1.3em;
+  border: 2px solid #FFA500;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
