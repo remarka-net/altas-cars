@@ -2,6 +2,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,900);
 
+body{
+  overflow-x:hidden;
+}
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -106,6 +109,7 @@
 }
 
 .service_order_article button{
+  cursor: pointer;
   margin-top: 10%;
   background-color: #FFD000;
   font-size: 1.3em;
@@ -115,6 +119,61 @@
   padding-bottom: 5px;
   padding-left: 40px;
   padding-right: 40px;
+  outline:none;
+  box-shadow: 0px 4px 0px #b27300  ;
+  cursor:pointer;
 }
+
+.service_order_article button:hover{
+  background-color: #daff00 ;
+  box-shadow: 0px 4px 0px #e69500 ;
+
+}
+
+.service_order_article button:active{
+  box-shadow: 0px 2px 0px #FFA500;
+}
+
+/*Outer block styles*/
+
+/*--------------------------------------end of Outer block styles --------------------------------------------*/
+
+.orderBtn{
+  width: 40%;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:12%;
+  text-align: center;
+  font-size:1.2em;
+  border: solid 2px #e69500;
+  line-height: 3;
+  border-radius: 20px;
+  background-color: #FFD000 ;
+  box-shadow: 0px 4px 0px #e69500  ;
+}
+
+.orderBtn:hover{
+  background-color: #ffde23 ;
+  box-shadow: 0px 4px 0px #e69500 ;
+}
+
+.orderBtn:active{
+  box-shadow: 0px 1px 0px #e69500;
+}
+
+.orderBtn img{
+  margin-left: 10px;
+}
+
+
+
+.Btn img{
+  position: relative;
+  z-index: 10;
+}
+
 
 

@@ -1,4 +1,4 @@
-import './index.css';
+
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import H1 from 'components/H1';
@@ -12,7 +12,14 @@ import img7 from './img/tachometer.svg';
 import img8 from './img/oil.svg';
 import car from './img/service_car.jpg';
 import pic1 from './img/car2.jpg';
+import pic2 from './img/car3.jpg';
+import pic3 from './img/car4.jpg';
 import order from './img/order_x64.png';
+import './index.css';
+import Form1 from '../../components/MyForm1/Form';
+import Form2 from '../../components/MyForm2/Form';
+import Form3 from '../../components/MyForm3/Form';
+
 /*
  *
  *
@@ -32,6 +39,7 @@ export default function FeaturePage() {
       <h1 className="Services_headline">
         ТОВ "ALTAS" предлагает вам полный спектр услуг
       </h1>
+      
 
       <div className="car_repair">
         <img src={img1} alt="motor" />
@@ -48,6 +56,7 @@ export default function FeaturePage() {
         <img src={img6} alt="" />
         <img src={img5} alt="" />
       </div>
+      
 
       <div className="service_order">
         <img className="service_order_pic" src={pic1} alt="the car" />
@@ -62,14 +71,61 @@ export default function FeaturePage() {
             этому специалисты смогут обнаружить скрытые неполадки, которые в
             скором времени могут стать причиной серьезной поломки.
           </p>
-          <button>Заказать <img src={order} width="40px" alt=""/></button>
+          <form>
+          <div className="Btn"><a class="orderBtn" href="#window_container">Заказать<img src={order} width="40px" alt="shopping cart"/></a></div>
+          </form>
         </div>
+        <Form1 />
+      </div>
 
+{/*-----------------------------------------Second form-----------------------------------------------------------------------*/}
+
+      <div className="service_order">
+        <img className="service_order_pic" src={pic2} alt="the car" />
+
+        <div className="service_order_article">
+          <span>Шиномонтаж</span>
+          <hr/>
+          <p>
+          Как известно, каждое транспортное средство подвергается негативному 
+          воздействию окружающей среды. Однако наибольший вред автомобилям наносит
+           качество наших дорог. Именно поэтому в любой момент может понадобиться не 
+           только балансировка колес, но и полная их замена. Необходимо понимать, что
+           своевременное решение проблемы с колесами позволит избежать поломок.
+          </p>
+          <form>
+          <div className="Btn"><a class="orderBtn" href="#window_container1">Заказать<img src={order} width="40px" alt="shopping cart"/></a></div>
+          </form>
+        </div>
+        <Form2 />
+      </div>
+
+{/*-----------------------------------------Third form-----------------------------------------------------------------------*/}
+
+<div className="service_order">
+        <img className="service_order_pic" src={pic3} alt="the car" />
+
+        <div className="service_order_article">
+          <span>Замена масла</span>
+          <hr/>
+          <p>
+          Каждый автомобилист должен помнить, что замена масла в двигателе позволяет решить самую главную задачу 
+          - замедление процесса износа мотора. Если вы будете следить за уровнем масла в двигателе, сможете избежать
+           ненужных хлопот, которые могут возникнуть в будущем. От выбора  во многом зависит способность двигателя 
+           выдерживать неблагоприятные условия
+          </p>
+          <form>
+          <div className="Btn"><a class="orderBtn" href="#window_container2">Заказать<img src={order} width="40px" alt="shopping cart"/></a></div>
+          </form>
+        </div>
+        <Form3 />
       </div>
 
 
 
+     </div>
 
-    </div>
+
+
   );
 }
