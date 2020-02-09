@@ -15,15 +15,15 @@ body{
   height: content; 
   font-size: 2em;
   padding:20px;
-  border: solid 2px blue;
+  border: solid 3px #0060FF;
   border-radius: 30px;
 }
 .fancy span:before,
 .fancy span:after {
   content: "";
   position: absolute;
-  height: 2px;
-  background-color: blue;
+  height: 3px;
+  background-color: #0060FF;
   top: 50%;
   width: 1000px;
 }
@@ -50,18 +50,25 @@ body{
   width:100%;
   padding-left: 15%;
   padding-right: 15%;
+  margin-bottom: 2em;
 }
 
 .main_car_repair{
   display:flex;
   justify-content: space-between;
-  padding-left: 15%;
-  padding-right: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .main_car_repair img:not(.service_car) {
   flex:none;
-  width: 5%;
+  width: 30%;
+  text-align: center;
+}
+
+.main_car_repair p{
+  line-height: 0.5em;
+  text-align: center;
 }
 
 .service_car{
@@ -69,12 +76,104 @@ body{
   max-width:70%;
 }
 
-.car_repair:not(.service_car) img{
-  width:5%;
+.car_repair img:not(.service_car) {
+  width: 30%;
+
 }
 
+.car_repair p{
+  line-height: 0.5em;
+}
+
+/*----labels-----------------------------*/
+.service_item1{
+  visibility: normal;
+  position: absolute;
+  background-color: 	#D3D3D3;
+  text-align: left;
+  max-width: 15%;
+  border-radius: 5px;
+  padding: 0.5em;
+  display: none;
+  font-size: 0.9em;
+}
+
+.service_item_bottom{
+  visibility: normal;
+  position: absolute;
+  max-width: 15%;
+  background-color: 	#D3D3D3;
+  text-align: left;
+  left:30%;
+  border-radius: 5px;
+  padding: 0.5em;
+  display: none;
+  font-size: 0.9em;
+}
+
+.service_item_bottom1{
+  visibility: normal;
+  position: absolute;
+  max-width: 15%;
+  background-color: 	#D3D3D3;
+  text-align: left;
+  left:53%;
+  border-radius: 5px;
+  padding: 0.5em;
+  display: none;
+  font-size: 0.9em;
+}
+
+.service_item_bottom2{
+  visibility: normal;
+  position: absolute;
+  max-width: 15%;
+  background-color: 	#D3D3D3;
+  text-align: left;
+  left:76%;
+  border-radius: 5px;
+  padding: 0.5em;
+  display: none;
+  font-size: 0.9em;
+}
+
+.main_icon{
+  text-align: center;
+  width:15%;
+  cursor: pointer;
+  margin: auto;  
+}
+
+.main_icon p{
+  font-size: 1em;
+}
+
+.main_icon:hover > .service_item1 {
+  display: block;
+  animation: fadein 1s;
+}
+
+.main_icon:hover > .service_item_bottom{
+  display: block;
+  animation: fadein 1s;
+}
+
+.main_icon:hover > .service_item_bottom1{
+  display: block;
+  animation: fadein 1s;
+}
+
+.main_icon:hover > .service_item_bottom2{
+  display: block;
+  animation: fadein 1s;
+}
+
+
+
+/*-----------------------------end of labels------------------------------------------------------------------*/
+
 .service_order{
-  margin-top: 50px;
+  margin-top: 1.5em;
   margin-left: 15%;
   margin-right: 15%;
   display:flex;
@@ -167,7 +266,6 @@ body{
 .orderBtn img{
   margin-left: 10px;
 }
-
 
 
 .Btn img{

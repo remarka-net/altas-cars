@@ -42,19 +42,79 @@ export default function FeaturePage() {
       
 
       <div className="car_repair">
-        <img src={img1} alt="motor" />
+
+          <div className="main_icon">
+          <img src={img1} alt="motor" />
+          <p>Двигатель</p>
+
+          <div className="service_item1">
+            <span>Проверка состояния двигателя, замер компрессии. </span>
+          </div>
+          </div>
+        
+
+        <div className="main_icon">
         <img src={img2} alt="" />
+        <p>КПП</p>
+        <div className="service_item1">
+            <span>Собственный алгоритм проверки АКПП. Проверка уровня жидкости и компьютерная диагностика. </span>
+          </div>
+        </div>
+   
+        <div className="main_icon">
         <img src={img3} alt="" />
+        <p>Тормоза</p>
+        <div className="service_item1">
+            <span>Проверяем состояние тормозных механизмов, дисков, колодок, антиблокировочной, антипробуксовочной систем и антизаноса. </span>
+          </div>
+        </div>
+       
       </div>
+
       <div className="main_car_repair">
+
+      <div className="main_icon">
         <img src={img8} alt="" />
+        <p>Масло</p>
+        <div className="service_item1">
+            <span>Проверям работу всех электронных систем и механических узлов, контролируемых этими системами.</span>
+          </div>
+        </div>
+       
         <img className="service_car" src={car} alt="" />
+  
+        <div className="main_icon">
         <img src={img4} alt="" />
+        <p>Аккумулятор</p>
+        <div className="service_item1">
+            <span>Проверка даты выпуска, напряжения, срока службы и работоспособности. </span>
+          </div>
+        </div>
+
       </div>
       <div className="car_repair">
+
+      <div className="main_icon">
+      <div className="service_item_bottom">
+            <span>Проверка правильной работы бортового компьютера и его показаний.</span>
+          </div>
         <img src={img7} alt="" />
+        <p>Приборы</p>
+        </div>
+        <div className="main_icon">
+        <div className="service_item_bottom1">
+            <span>Равномерность износа, дата производства, состояние и марка шин - важный момент при покупке автомобиля. </span>
+          </div>
         <img src={img6} alt="" />
+        <p>Шины</p>
+        </div>
+        <div className="main_icon">
+        <div className="service_item_bottom2">
+            <span>Это один из самых важных элементов подвески. Они напрямую влияют на управляемость автомобиля, на его устойчивость и плавность хода автомобиля. </span>
+          </div>
         <img src={img5} alt="" />
+        <p>Гидравлика</p>
+        </div>
       </div>
       
 
