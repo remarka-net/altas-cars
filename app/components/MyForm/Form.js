@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Form.css';
+import accepted_icon from './checkmark.svg';
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -9,26 +10,22 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         'gmail',
-        'template_hsjTwTVo',
+        'template_CVaJwcZ9',
         e.target,
-        'user_gVUee7bxzx7Obe10GOfuU',
+        'user_Gaxs51wraDWa3FxtLGuJ9',
       )
       .then(
         result => {
           console.log(result.text);
-          alert("Спасибо, мы свяжемся с вами в ближайшее время");
-            document.location.reload(true);
-            
+          document.getElementById('window_container').style.display = 'block';
+          /* document.location.reload(true); */
 
-          /*if (document.location.onload = (true)){alert('window onload');} */
+          /* if (document.location.onload = (true)){alert('window onload');} */
         },
         error => {
           console.log(error.text);
         },
       );
-      function loadImage(){
-        alert("hello world!");
-      }
   }
   return (
     <form className="contact-form" onSubmit={sendEmail}>
@@ -46,7 +43,14 @@ export default function ContactUs() {
 
       <input type="email" placeholder="E-mail" name="user_email" />
 
-      <input type="submit" value="Сделать заказ"  />
+      <input id="FormSubmit" type="submit" value="Сделать заказ" />
+
+      <div id="window_container">
+        <div id="okno">
+          <p>Спасибо! Мы свяжемся с вами в ближайшее время</p>
+          <img src={accepted_icon} alt="accepted" />
+        </div>
+      </div>
     </form>
   );
 }

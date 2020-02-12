@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Form.css';
+import accepted_icon from './checkmark.svg';
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -11,40 +12,52 @@ export default function ContactUs() {
         'gmail',
         'car_diagnostic',
         e.target,
-        'user_gVUee7bxzx7Obe10GOfuU',
+        'user_Gaxs51wraDWa3FxtLGuJ9',
       )
       .then(
         result => {
           console.log(result.text);
-          alert("Спасибо, мы свяжемся с вами в ближайшее время");
-            /*document.location.reload(true); */
-            window.location.href = window.location.href.split( '#' )[0];
-            
+          document.getElementById('window_container2').style.display = 'block';
+          /* document.location.reload(true); */
 
-          /*if (document.location.onload = (true)){alert('window onload');} */
+          /* if (document.location.onload = (true)){alert('window onload');} */
         },
         error => {
           console.log(error.text);
         },
       );
-      function loadImage(){
-        alert("hello world!");
-      }
   }
   return (
-    <form id="window_container2" onSubmit={sendEmail}>
+    <form id="contact_form2" onSubmit={sendEmail}>
       <label>Предварительный заказ</label>
       <hr />
 
       <input required type="text" placeholder="Ваше ФИО*" name="user_name" />
 
-      <input required type="numeric" placeholder="Номер телефона*" name="user_phone" />
+      <input
+        required
+        type="numeric"
+        placeholder="Номер телефона*"
+        name="user_phone"
+      />
 
       <input type="email" placeholder="E-mail" name="user_email" />
 
-      <input id="prodId" name="service_name" type="hidden" value="Замена масла"></input>
+      <input
+        id="prodId"
+        name="service_name"
+        type="hidden"
+        value="Замена масла"
+      />
 
       <input type="submit" value="Сделать заказ" />
+
+      <div id="window_container2">
+        <div id="okno">
+          <p>Спасибо! Мы свяжемся с вами в ближайшее время</p>
+          <img src={accepted_icon} alt="accepted" />
+        </div>
+      </div>
     </form>
   );
 }

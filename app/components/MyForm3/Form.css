@@ -1,5 +1,5 @@
 
-#window_container2:target{
+#contact_form2:target{
     border: 4px solid #50A0ED;
     border-radius: 10px;
     width: 400px;
@@ -10,11 +10,11 @@
     padding: 20px;
 }
 
-#window_container2 label{
+#contact_form2 label{
     font-size: 24px;
 }
 
-#window_container2 hr{
+#contact_form2 hr{
     width: 90%;
     margin-bottom: 10px;
     border: none; /* Убираем границу для браузера Firefox */
@@ -23,7 +23,7 @@
     height: 2px;
 }
 
-#window_container2 input{
+#contact_form2 input{
     width:90%;
     padding: 10px;
     margin-bottom: 20px;
@@ -33,7 +33,7 @@
     font-size:20px;
 }
 
-#window_container2 input[type="submit"] {
+#contact_form2 input[type="submit"] {
     margin-top: 0;
     margin-bottom: 0;
     outline:none;
@@ -45,27 +45,57 @@
     font-size:22px;
 }
 
-#window_container2 input[type="submit"]:hover{
+#contact_form2 input[type="submit"]:hover{
     background-color: #61A9EE  ;
     box-shadow: 0px 4px 0px #3870A5;
 
 }
 
-#window_container2 input[type="submit"]:active{
+#contact_form2 input[type="submit"]:active{
     box-shadow: 0px 1px 0px #3870A5;
 }
   
 
 /*---old block ---------------------------------------*/
-#window_container2 {
+#contact_form2 {
     background: rgba(102, 102, 102, 0.8);
     width: 10%;
-    height: min-content;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     position: absolute;
     display: none;
+  }
+
+  #window_container2 {
+    background: #fff;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: none;
+  }
+  #okno {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    height: 100%;
+    text-align: center;
+    font-size:2em;
+    padding: 15px;
+    border: 3px solid rgba(248, 148, 6, 1);
+    border-radius: 10px;
+    color: #000;
+    margin: auto;
+    background:transparent;
+  }
+
+  #okno p{
+      margin-bottom: 0;
+  }
+  
+  #okno img{
+     padding:auto;
+      width: 50%;
+      height: 50%;
   }
   
