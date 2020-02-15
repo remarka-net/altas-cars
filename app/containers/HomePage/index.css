@@ -225,8 +225,8 @@
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 0;
-    padding-bottom: 20px;
+    line-height: 3;
+    margin-top: 0;
 }
 
 .contact-form{

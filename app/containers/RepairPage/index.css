@@ -31,14 +31,242 @@
     margin-left: 0;
   }
 
-
-
-
-
 .repair_headline{
     font-size: 1.8em;
     font-weight: normal;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;;
+}
+
+/*=================================+++++++++++++++++++++++++++++++++++++++TABS
+
+
+.tabs {
+	min-width: 320px;
+	max-width: 800px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.tabs>section {
+	display: none;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.tabs>section>p {
+	margin: 0 0 5px;
+	line-height: 1.5;
+	color: #383838;
+
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.tabs>input {
+	display: none;
+	position: absolute;
+}
+
+
+.tabs>label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 15px 25px;
+	font-weight: 600;
+	text-align: center;
+	color: #aaa;
+	border: 0px solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	background: #f1f1f1;
+	border-radius: 3px 3px 0 0;
+}
+
+.tabs>label:before {
+	font-family: fontawesome;
+	font-weight: normal;
+	margin-right: 10px;
+}
+.tabs>label[for*="1"]:before {
+	content: "\f19a";
+}
+.tabs>label[for*="2"]:before {
+	content: "\f17a";
+}
+.tabs>label[for*="3"]:before {
+	content: "\f13b";
+}
+.tabs>label[for*="4"]:before {
+	content: "\f13c";
+}
+
+ 
+.tabs>label:hover {
+	color: #888;
+	cursor: pointer;
+}
+
+.tabs>input:checked+label {
+	color: #555;
+	border-top: 1px solid #009933;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+
+
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4 {
+	display: block;
+}
+
+ 
+@media screen and (max-width: 680px) {
+	.tabs>label {
+		font-size: 0;
+	}
+	.tabs>label:before {
+		margin: 0;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.tabs>label {
+		padding: 15px;
+	}
+}
+
+#tab1, #tab2, #tab3, #tab4{
+  float: left;
+}
+*/
+
+
+#tabbed_box {
+ margin: 0px auto 0px auto;
+ width:300px;
+}
+.tabbed_box h4 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:23px;
+  color:#ffffff;
+  letter-spacing:-1px;
+  margin-bottom:10px;
+ }
+ .tabbed_box h4 small {
+  color:#e3e9ec;
+  font-weight:normal;
+  font-size:9px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  text-transform:uppercase;
+  position:relative;
+  top:-4px;
+  left:6px;
+  letter-spacing:0px;
+ }
+ .tabbed_area {
+  border:1px solid #494e52;
+
+  padding:8px;
+ }
+
+ul.tabs {
+ margin:0px; padding:0px;
+ display: block;
+ float: right;
+}
+ul.tabs li {
+ list-style:none;
+ display:block;
+}
+
+ul.tabs li a {
+  display: block;
+  color:#ffebb5;
+  padding:8px 14px 8px 14px;
+  text-decoration:none;
+  font-size:9px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-transform:uppercase;
+  border:1px solid #464c54;
+  width:100%;
+ }
+
+ ul.tabs li a img{
+width: 100px; 
+}
+ ul.tabs li a:hover {
+  background-color:#2f343a;
+  border-color:#2f343a;
+ }
+ ul.tabs li a.active {
+  background-color:#ffffff;
+  color:#282e32;
+  border:1px solid #464c54;
+  border-bottom: 1px solid #ffffff;
+ }
+
+.content {
+ background-color:#ffffff;
+ padding:10px;
+ border:1px solid #464c54;
+ width: 90%;
+}
+#content_2, #content_3 { display:none; }
+
+ul.tabs {
+  margin:0px; padding:0px;
+  margin-top:5px;
+  margin-bottom:6px;
+ }
+ .content ul {
+  margin:0px;
+  padding:0px 20px 0px 20px;
+ }
+ .content ul li {
+  list-style:none;
+  border-bottom:1px solid #d6dde0;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:13px;
+ }
+ .content ul li a {
+  text-decoration:none;
+  color:#3e4346;
+ }
+ .content ul li a small {
+  color:#8b959c;
+  font-size:9px;
+  text-transform:uppercase;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  position:relative;
+  left:4px;
+  top:0px;
+ }
+ 
+.content ul li:last-child {
+ border-bottom:none;
 }
