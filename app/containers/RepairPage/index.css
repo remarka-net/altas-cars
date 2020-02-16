@@ -186,9 +186,8 @@
   left:6px;
   letter-spacing:0px;
  }
- .tabbed_area {
-  border:1px solid #494e52;
 
+ .tabbed_area {
   padding:8px;
  }
 
@@ -211,7 +210,6 @@ ul.tabs li a {
   font-family:Verdana, Arial, Helvetica, sans-serif;
   font-weight:bold;
   text-transform:uppercase;
-  border:1px solid #464c54;
   width:100%;
  }
 
@@ -219,28 +217,34 @@ ul.tabs li a {
 width: 100px; 
 }
  ul.tabs li a:hover {
-  background-color:#2f343a;
+  background-color:rgba(189, 195, 199, 1);
   border-color:#2f343a;
  }
  ul.tabs li a.active {
-  background-color:#ffffff;
+  background-color:rgba(189, 195, 199, 1);
   color:#282e32;
-  border:1px solid #464c54;
   border-bottom: 1px solid #ffffff;
  }
 
 .content {
  background-color:#ffffff;
  padding:10px;
- border:1px solid #464c54;
- width: 90%;
+ width: 100%;
+ padding-left: 5%;
+ padding-right: 10%;
 }
-#content_2, #content_3 { display:none; }
+#content_2, #content_3, #content_4, #content_5,
+#content_6, #content_7, #content_8, #content_9,
+#content_10, #content_11, #content_12, #content_13,
+#content_14, #content_15, #content_16, #content_17, #content_18 { display:none; }
 
 ul.tabs {
   margin:0px; padding:0px;
   margin-top:5px;
   margin-bottom:6px;
+  padding-left: 5px;
+  margin-right: 1%;
+  border-left: 1px solid #0060FF;
  }
  .content ul {
   margin:0px;
@@ -248,7 +252,7 @@ ul.tabs {
  }
  .content ul li {
   list-style:none;
-  border-bottom:1px solid #d6dde0;
+
   padding-top:15px;
   padding-bottom:15px;
   font-size:13px;
@@ -269,4 +273,108 @@ ul.tabs {
  
 .content ul li:last-child {
  border-bottom:none;
+}
+
+.Auto_headline{
+  font-size: 2em;
+  text-align:center;
+}
+
+.Auto_text{
+  font-size: 1.4em;
+}
+
+.table_headline{
+  font-size: 1.2em;
+  line-height: 0.5;
+  width: 30%;
+  text-align: left;
+}
+.table_headline p{
+  margin-top: 0;
+}
+.table_headline span{
+  font-size: 0.5em;
+}
+
+.first_row{
+  font-size: 2em;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; 
+}
+
+.first_row > th:not(.table_headline){
+}
+
+#Auto_table{
+  border-collapse: inherit;
+  border-spacing: 5px;
+  width: calc(100% + 1px);
+  background-image: url('images/santa_fe.jpg');
+  background-size: cover;
+  background-position: 0 40%;
+  box-shadow: inset 0px 0px 277px 100px #fff;
+  border-radius: 20px;
+}
+
+
+
+#Auto_table > tr > td:first-child{
+  border-bottom: 2px dashed #000;
+  font-size: 1.5em;
+}
+
+.first_title td:not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.second_title td:not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.third_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.fourth_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.fifth_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.sixth_title td:nth-child(3n+1):not(:first-child) {  
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.seventh_title td:nth-child(4n+1):not(:first-child){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.eighth_title td:nth-last-child(2){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.nineth_title td:nth-last-child(2){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.tenth_title td:nth-last-child(2){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
+}
+
+.eleventh_title td:nth-last-child(2){
+  background-color:  	rgba(255,165,0, 0.8);
+  border-radius:10px;
 }
