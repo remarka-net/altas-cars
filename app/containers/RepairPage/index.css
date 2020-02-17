@@ -325,56 +325,56 @@ ul.tabs {
 }
 
 .first_title td:not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .second_title td:not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .third_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .fourth_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .fifth_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .sixth_title td:nth-child(3n+1):not(:first-child) {  
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .seventh_title td:nth-child(4n+1):not(:first-child){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .eighth_title td:nth-last-child(2){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .nineth_title td:nth-last-child(2){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .tenth_title td:nth-last-child(2){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }
 
 .eleventh_title td:nth-last-child(2){
-  background-color:  	rgba(255,165,0, 0.8);
+  background-color:  	rgba(25, 181, 254, 0.9);
   border-radius:10px;
 }

@@ -16,6 +16,9 @@ import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import ServicesPage from 'containers/ServicesPage/Loadable';
 import RepairPage from 'containers/RepairPage/Loadable';
+import NewsPage from 'containers/NewsPage/Loadable';
+import TradePage from 'containers/TradePage/Loadable';
+import About from 'containers/About/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
@@ -44,6 +47,9 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route path="/ServicesPage" component={ServicesPage} />
         <Route path="/RepairPage" component={RepairPage} />
+        <Route path="/NewsPage" component={NewsPage} />
+        <Route path="/TradePage" component={TradePage} />
+        <Route path="/About" component={About} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
