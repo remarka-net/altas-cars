@@ -16,10 +16,11 @@ import Mitsubishi from './images/Mitsubishi-logo.png';
 import Nissan from './images/Nissan-logo.png';
 import Opel from './images/Opel-logo.png';
 import Peugeot from './images/Peugeot-logo.png';
-import Renault from './images/Renault-logo.svg';
+import Renault from './images/Renault-logo.png';
 import Skoda from './images/Skoda-logo.png';
 import Toyota from './images/Toyota-logo.png';
 import Volkswagen from './images/Volkswagen-logo.png';
+import accept from './images/accept.png';
 
 
 export default function Fruits() {
@@ -45,6 +46,7 @@ export default function Fruits() {
     });
   });
 
+  $('.pic').parents('td').css('border', '3px solid #0060FF'); 
    
   return (
     <div id="info">
@@ -55,11 +57,11 @@ export default function Fruits() {
       </div>
 
       <p className="repair_headline">
-        Выберите нужную марку авто из списка для подробной информации
+        Информация о регламенте ТО для каждой марки авто
       </p>
 
 <div id="tabbed_box_1" class="tabbed_box">
- <h4>Browse Site <small>Select a Tab</small></h4>
+
     <div class="tabbed_area">
 
 <ul class="tabs">
@@ -177,103 +179,146 @@ export default function Fruits() {
  </ul>
         </div>
 
+        {/*-------------------------------------------Start of Hyundai content------------------------------------------------------------------------------------------------------------------------------*/}
+
         <div id="content_7" class="content">
         <p className="Auto_headline">ТО для автомобиля Hundai Santa Fe</p>
         <table id="Auto_table">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
 
-          <th>15</th>
-          <th>30</th>
-          <th>45</th>
-          <th>60</th>
-          <th>75</th>
-          <th>90</th>
-          <th>105</th>
-          <th>120</th>
+          <th><p>10</p></th>
+          <th><p>20</p></th>
+          <th><p>30</p></th>
+          <th><p>40</p></th>
+          <th><p>50</p></th>
+          <th><p>60</p></th>
+          <th><p>70</p></th>
+          <th><p>80</p></th>
+          <th>
+            <p>90</p>
+          </th>
+          <th>
+            <p>100</p>
+          </th>
+          <th>
+            <p>110</p>
+          </th>
+          <th>
+            <p>120</p>
+          </th>
           </tr>
           <tr className="first_title">
             <td>Моторное масло и фильтр</td>
 
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
           </tr>
-          <tr className="second_title">
-            <td>Салонный фильтр</td>
-
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr className="third_title">
-            <td>Свечи зажигания</td>
-
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr className="fourth_title">
-            <td>Жидкость гидропривода</td>
-
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr className="fifth_title">
-            <td>Тормозная жидкость</td>
-
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr className="sixth_title">
+          <tr className="second1_title">
             <td>Воздушный фильтр</td>
+
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
           </tr>
-          <tr className="seventh_title">
+          <tr className="third1_title">
             <td>Топливный фильтр</td>
 
             <td></td>
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
             <td></td>
+            <td><img src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="second_title">
+            <td>Салонный фильтр</td>
+
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td><img src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="third_title">
+            <td>Свечи зажигания</td>
+
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="fourth_title">
+            <td>Жидкость гидропривода</td>
+
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="fifth_title">
+            <td>Тормозная жидкость</td>
+
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
           </tr>
           <tr className="eighth_title">
             <td>Ремень ГРМ</td>
@@ -281,6 +326,228 @@ export default function Fruits() {
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr className="nineth_title">
+            <td>Масло в МКПП</td>
+            
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr className="tenth_title">
+            <td>Охлаждающая жидкость</td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr className="eleventh_title">
+            <td>Масло в раздаточной коробке</td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <p className="Auto_headline1">Дополнительное инфо о модели</p>
+         <p className="Auto_text">
+         тилетней гарантией.
+
+На Нью-Йоркском автосалоне 2012 состоялся дебют фейслифтинговой версии Santa Fe третьего поколения. Автомобиль представили в двух исполнениях – пятиместной Sport и семиместной с увеличенной колесной базой. Российская презентация новинки состоялась в рамках Московского автосалона 2012. 
+
+Обновленный Santa Fe стал солиднее и брутальнее. Дизайн модели выполнен в текущем фирменном стиле Fluidic Sculpture с шестиугольной решеткой радиатора, узкой светотехникой и многочисленными подштамповками. Фейслифтинг затронул передний и задний бамперы, окантовки противотуманных фар, рейлинги на крыше, а также рисунок колесных дисков. Стильный дизайн боковых линий, не только наполнен динамизмом, но и, по словам конструкторов, привел к снижению коэффициента лобового сопротивления до 0,34. <br />
+
+На американском рынке базовый пятиместный Hyundai Santa Fe 2013 продается с приставкой Sport. Его габаритная длина составляет 4 690 мм, ширина – 1 880, высота – 1 680, а величина колесной базы – 2 700 мм. Семиместный вариант кроссовера получился на 215 мм длинее, на 5 мм шире, на 10 мм выше, а колесная база растянута до 2 800 мм, что на 10 см больше, чем у версии Sport. Но оформление салона у обеих модификаций одинаковое – с новой передней панелью и улучшенными материалами отделки. <br />
+
+Салон выдержан в духе последних моделей Hyundai. Оптитронная приборная панель с приятной голубой подсветкой оборудована цветным 4,3-дюймовым дисплеем для вывода вспомогательной информации. Посередине центральной консоли расположен 8-дюймовый LCD-дисплей, на который выводится вся необходимая информация, а также данные навигационной системы. Кстати, последнюю можно заказать с одним из двух вариантов программного обеспечения: Navitel или Navteq. По словам представителей Hyundai такой выбор обусловлен локальными предпочтениями клиентов.  <br />
+Обновленный Santa Fe доступен в пяти комплектациях: Comfort, Dynamic, Sport, High-Tech и Family. Стандартное оборудование комплектации Comfort включает в себя 6 подушек безопасности, систему курсовой устойчивости ESP, светодиодные ходовые огни, датчик дождя, легкосплавные диски R17, подогрев передних кресел, электропривод зеркал с подогревом, маршрутный компьютер, электроусилитель руля, ABS, HAS, DBC, ESC. В данной комплектации Hyunda Santa Fe имеет две версии – переднеприводную и полноприводную.
+         </p>
+
+         <p className="Auto_headline">ТО для автомобиля Hundai Tucson ix35</p>
+        <table id="Auto_table1">
+          <tr className="first_row">
+          <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
+
+          <th><p>10</p></th>
+          <th><p>20</p></th>
+          <th><p>30</p></th>
+          <th><p>40</p></th>
+          <th><p>50</p></th>
+          <th><p>60</p></th>
+          <th><p>70</p></th>
+          <th><p>80</p></th>
+          <th>
+            <p>90</p>
+          </th>
+          <th>
+            <p>100</p>
+          </th>
+          <th>
+            <p>110</p>
+          </th>
+          <th>
+            <p>120</p>
+          </th>
+          </tr>
+          <tr className="first_title">
+            <td>Моторное масло и фильтр</td>
+
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="second1_title">
+            <td>Воздушный фильтр</td>
+
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="third1_title">
+            <td>Топливный фильтр (бензин)</td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="second_title">
+            <td>Салонный фильтр</td>
+
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="third_title">
+            <td>Свечи зажигания</td>
+
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="fourth_title">
+            <td>Жидкость гидропривода</td>
+
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="fifth_title">
+            <td>Тормозная жидкость</td>
+
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
+          </tr>
+          <tr className="eighth_title">
+            <td>Ремень ГРМ</td>
+
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
             <td></td>
@@ -298,9 +565,13 @@ export default function Fruits() {
             <td></td>
             <td></td>
             <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
           </tr>
           <tr className="tenth_title">
-            <td>Охлаждающая жидкость</td>
+            <td>Масло в АКПП</td>
 
             <td></td>
             <td></td>
@@ -310,21 +581,31 @@ export default function Fruits() {
             <td></td>
             <td></td>
             <td></td>
-          </tr>
-          <tr className="eleventh_title">
-            <td>Масло в раздаточной коробке</td>
-
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><img className="pic" src={accept} alt="accept"/></td>
             <td></td>
             <td></td>
             <td></td>
           </tr>
+        
         </table>
+
+        <p className="Auto_headline1">Дополнительное инфо о модели</p>
+         <p className="Auto_text">
+         тилетней гарантией.
+
+На Нью-Йоркском автосалоне 2012 состоялся дебют фейслифтинговой версии Santa Fe третьего поколения. Автомобиль представили в двух исполнениях – пятиместной Sport и семиместной с увеличенной колесной базой. Российская презентация новинки состоялась в рамках Московского автосалона 2012. 
+
+Обновленный Santa Fe стал солиднее и брутальнее. Дизайн модели выполнен в текущем фирменном стиле Fluidic Sculpture с шестиугольной решеткой радиатора, узкой светотехникой и многочисленными подштамповками. Фейслифтинг затронул передний и задний бамперы, окантовки противотуманных фар, рейлинги на крыше, а также рисунок колесных дисков. Стильный дизайн боковых линий, не только наполнен динамизмом, но и, по словам конструкторов, привел к снижению коэффициента лобового сопротивления до 0,34. <br />
+
+На американском рынке базовый пятиместный Hyundai Santa Fe 2013 продается с приставкой Sport. Его габаритная длина составляет 4 690 мм, ширина – 1 880, высота – 1 680, а величина колесной базы – 2 700 мм. Семиместный вариант кроссовера получился на 215 мм длинее, на 5 мм шире, на 10 мм выше, а колесная база растянута до 2 800 мм, что на 10 см больше, чем у версии Sport. Но оформление салона у обеих модификаций одинаковое – с новой передней панелью и улучшенными материалами отделки. <br />
+
+Салон выдержан в духе последних моделей Hyundai. Оптитронная приборная панель с приятной голубой подсветкой оборудована цветным 4,3-дюймовым дисплеем для вывода вспомогательной информации. Посередине центральной консоли расположен 8-дюймовый LCD-дисплей, на который выводится вся необходимая информация, а также данные навигационной системы. Кстати, последнюю можно заказать с одним из двух вариантов программного обеспечения: Navitel или Navteq. По словам представителей Hyundai такой выбор обусловлен локальными предпочтениями клиентов.  <br />
+Обновленный Santa Fe доступен в пяти комплектациях: Comfort, Dynamic, Sport, High-Tech и Family. Стандартное оборудование комплектации Comfort включает в себя 6 подушек безопасности, систему курсовой устойчивости ESP, светодиодные ходовые огни, датчик дождя, легкосплавные диски R17, подогрев передних кресел, электропривод зеркал с подогревом, маршрутный компьютер, электроусилитель руля, ABS, HAS, DBC, ESC. В данной комплектации Hyunda Santa Fe имеет две версии – переднеприводную и полноприводную.
+         </p>
+
         </div>
+
+{/* ---------------------------------------------------The end of Hyundai content----------------------------------------------------------------------------------------------------------------------------*/}
 
         <div id="content_8" class="content">
          <ul>

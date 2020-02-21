@@ -36,7 +36,7 @@
     font-weight: normal;
     text-align: center;
     padding-top: 1%;
-    padding-bottom: 1%;;
+    padding-bottom: 1%;
 }
 
 /*=================================+++++++++++++++++++++++++++++++++++++++TABS
@@ -244,7 +244,7 @@ ul.tabs {
   margin-bottom:6px;
   padding-left: 5px;
   margin-right: 1%;
-  border-left: 1px solid #0060FF;
+  border-left: 2px solid #0060FF;
  }
  .content ul {
   margin:0px;
@@ -278,10 +278,21 @@ ul.tabs {
 .Auto_headline{
   font-size: 2em;
   text-align:center;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+.Auto_headline1{
+  font-size: 2em;
+  text-align:center;
+  margin: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .Auto_text{
   font-size: 1.4em;
+  margin-top: 0;
 }
 
 .table_headline{
@@ -306,75 +317,189 @@ ul.tabs {
 .first_row > th:not(.table_headline){
 }
 
-#Auto_table{
+#content_7 #Auto_table, #Auto_table1{
   border-collapse: inherit;
   border-spacing: 5px;
   width: calc(100% + 1px);
-  background-image: url('images/santa_fe.jpg');
   background-size: cover;
-  background-position: 0 40%;
+
   box-shadow: inset 0px 0px 277px 100px #fff;
   border-radius: 20px;
 }
 
+#content_7 #Auto_table{
+  background-image: url('images/santa_fe.jpg');
+  background-position: 0 40%;
+}
+
+#content_7 #Auto_table1{
+  background-image: url('images/ix35.jpg');
+  background-position: 0 65%;
+}
+
+#Auto_table th p, #Auto_table1 th p{
+  font-size: 1.2em;
+  border: double 4px transparent;
+  border-radius: 80px;
+  /* border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5; */
+
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.first_row th:nth-child(2) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, white, white, white, white,  white, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(3) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, white, white, white,  white, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(4) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, white, white,  white, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(5) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, white,  white, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(6) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  white, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(7) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, white, white, white, white, white, white  );
+}
+.first_row th:nth-child(8) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, #000, white, white, white, white, white  );
+}
+.first_row th:nth-child(9) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, #000, #000, white, white, white, white );
+}
+.first_row th:nth-child(10) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, #000,#000, #000, white, white, white );
+}
+.first_row th:nth-child(11) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, #000, #000, #000, #000, white, white );
+}
+.first_row th:nth-child(12) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000,  #000, #000, #000, #000, #000, #000, white );
+}
+.first_row th:nth-child(13) p{
+  background-image:
+  linear-gradient( white, white),
+  linear-gradient(to right, #000, #000, #000, #000, #000, #000,  #000, #000, #000, #000, #000, #000 );
+}
 
 
-#Auto_table > tr > td:first-child{
+
+
+#Auto_table tr td:not(:first-child), #Auto_table1 tr td:not(:first-child){
+  border: 1px solid #000;
+  border-radius:10px;
+  text-align: center;
+}
+
+#Auto_table tr td img, #Auto_table1 tr td img{
+  height: 40px;
+}
+
+#Auto_table > tr > td:first-child, #Auto_table1 > tr > td:first-child{
   border-bottom: 2px dashed #000;
   font-size: 1.5em;
 }
 
-.first_title td:not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .first_title td:not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.second_title td:not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .second_title td:not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.third_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .third_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.fourth_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .fourth_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.fifth_title td:not(:nth-child(even)):not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .fifth_title td:not(:nth-child(even)):not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.sixth_title td:nth-child(3n+1):not(:first-child) {  
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .second1_title td:nth-child(3n+1):not(:first-child) {  
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.seventh_title td:nth-child(4n+1):not(:first-child){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .third1_title td:nth-child(4n+1):not(:first-child){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.eighth_title td:nth-last-child(2){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .eighth_title td:nth-last-child(6){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.nineth_title td:nth-last-child(2){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .nineth_title td:nth-last-child(6){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.tenth_title td:nth-last-child(2){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .tenth_title td:nth-last-child(6){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
 }
 
-.eleventh_title td:nth-last-child(2){
-  background-color:  	rgba(25, 181, 254, 0.9);
+#Auto_table .eleventh_title td:nth-last-child(6){
+  background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
+  border: 3px solid #0060FF !important;
+}
+
+#Auto_table1 .first_title td + img{
+  border: 3px solid blue !important;
 }
