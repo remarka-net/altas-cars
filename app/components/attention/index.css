@@ -1,0 +1,25 @@
+
+.attention{
+    background-color: 	#f5f50a;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.attention li{
+    display: inline-block;
+}
+
+
+
+.attention img{
+    width: 10%;
+    height: 5%;
+}

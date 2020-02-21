@@ -7,20 +7,15 @@ export default class Colorful extends React.Component {
   render() {
     // change code below this line
     return (
-      <div>Style Me!
-        <li>Hello</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </div>
+
+      <div>
+        <p className="subtitle fancy">
+          <span>АвтоНовости</span>
+        </p>
+        </div>
+
+
     );
-    // change code above this line
   }
 };
 

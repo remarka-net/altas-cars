@@ -1,0 +1,93 @@
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative; 
+    height: content; 
+    font-size: 2em;
+    padding:20px;
+    border: solid 3px #0060FF;
+    border-radius: 30px;
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0060FF;
+    top: 50%;
+    width: 1000px;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 0;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 0;
+  }
+
+.repair_headline{
+    font-size: 1.8em;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/*=================================+++++++++++++++++++++++++++++++++++++++Headline ONLY-----------------------------*/
+
+.first_text{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.3em;
+}
+
+.first_text h1{
+    font-size: 1.6em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.car_gallery{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+.car_gallery li{
+    display: inline;
+}
+
+.car_gallery img{
+    width: 45%;
+    margin: 5px;
+} 
+
+
+.map_contacts{
+  background-color: #fff;
+  padding-left: 15%;
+  padding-right: 15%;
+  height: min-content;
+  width: 100%;
+  text-align: center;
+}
+
+.map_contacts h4{
+  font-style: normal;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* 
+
+.car_gallery img{
+    float: left;
+    margin-right: 10px;
+    width: 45%;
+} */

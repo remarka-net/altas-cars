@@ -7,18 +7,12 @@ export default class Trade extends React.Component {
   render() {
     // change code below this line
     return (
-      <div>Style Me!
-        <li>Hello TRADE!</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <div>
+      <p className="subtitle fancy">
+        <span>Торговая площадка</span>
+      </p>
       </div>
+
     );
     // change code above this line
   }
