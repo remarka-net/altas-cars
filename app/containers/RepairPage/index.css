@@ -314,8 +314,6 @@ ul.tabs {
   border-right: 1px solid #000; 
 }
 
-.first_row > th:not(.table_headline){
-}
 
 #content_7 #Auto_table, #Auto_table1{
   border-collapse: inherit;
@@ -332,10 +330,109 @@ ul.tabs {
   background-position: 0 40%;
 }
 
+#content_1 #Auto_table1{
+  background-image: url('images/audi-a6.jpg');
+  background-position: 0 70%;
+}
+
+#content_2 #Auto_table1{
+  background-image: url('images/BMW-car.jpg');
+  background-position: 0 50%;
+}
+
+#content_3 #Auto_table1{
+  background-image: url('images/lacetti.jpg');
+  background-position: 0 60%;
+}
+
+#content_4 #Auto_table1{
+  background-image: url('images/matiz.jpg');
+  background-position: 0 50%;
+  box-shadow: inset 0px 0px 200px 70px #fff;
+}
+
+#content_5 #Auto_table1{
+  background-image: url('images/focus.jpg');
+  background-position: 0 65%;
+  box-shadow: inset 0px 0px 200px 70px #fff;
+}
+
+#content_6 #Auto_table1{
+  background-image: url('images/crv.jpg');
+  background-position: 0 50%;
+  box-shadow: inset 0px 0px 200px 70px #fff;
+}
+
 #content_7 #Auto_table1{
   background-image: url('images/ix35.jpg');
   background-position: 0 65%;
 }
+
+#content_8 #Auto_table1{
+  background-image: url('images/ceed2.jpg');
+  background-position: 0 55%;
+}
+
+#content_9 #Auto_table1{
+  background-image: url('images/m6.jpg');
+  background-position: 0 20%;
+  box-shadow: inset 0px 0px 150px 50px #fff;
+}
+
+#content_10 #Auto_table1{
+  background-image: url('images/merc.jpg');
+  background-position: 0 50%;
+  box-shadow: inset 0px 0px 200px 50px #fff;
+}
+
+#content_11 #Auto_table1{
+  background-image: url('images/out.jpg');
+  background-position: 0 55%;
+  box-shadow: inset 0px 0px 200px 50px #fff;
+}
+
+#content_12 #Auto_table1{
+  background-image: url('images/nissan.jpg');
+  background-position: 0 35%;
+  box-shadow: inset 0px 0px 200px 50px #fff;
+}
+
+#content_13 #Auto_table1{
+  background-image: url('images/astra.jpg');
+  background-position: 0 60%;
+  box-shadow: inset 0px 0px 200px 50px #fff;
+}
+
+#content_14 #Auto_table1{
+  background-image: url('images/107.jpg');
+  background-position: 0 60%;
+  box-shadow: inset 0px 0px 250px 70px #fff;
+}
+
+#content_15 #Auto_table1{
+  background-image: url('images/logan.jpg');
+  background-position: 0 40%;
+  box-shadow: inset 0px 0px 250px 70px #fff;
+}
+
+#content_16 #Auto_table1{
+  background-image: url('images/fabia.jpg');
+  background-position: 0 50%;
+  box-shadow: inset 0px 0px 100px 50px #fff;
+}
+
+#content_17 #Auto_table1{
+  background-image: url('images/camry.jpg');
+  background-position: 0 55%;
+  box-shadow: inset 0px 0px 150px 70px #fff;
+}
+
+#content_18 #Auto_table1{
+  background-image: url('images/polo.jpg');
+  background-position: 0 60%;
+  box-shadow: inset 0px 0px 150px 70px #fff;
+}
+
 
 #Auto_table th p, #Auto_table1 th p{
   font-size: 1.2em;
@@ -498,8 +595,4 @@ ul.tabs {
   background-color:  	rgba(25, 181, 254, 0);
   border-radius:10px;
   border: 3px solid #0060FF !important;
-}
-
-#Auto_table1 .first_title td + img{
-  border: 3px solid blue !important;
 }
