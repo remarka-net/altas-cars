@@ -37,3 +37,85 @@
     padding-bottom: 1%;
 }
 /*--------------------------------------Только заголовок--------------------------------------------------------*/
+
+#trade_blocks{
+  width: 90%;
+  height: content;
+  text-align: center;
+  margin: 0 auto;
+
+
+  /* flexbox setup */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trade_block .order_img{
+  width: 90%;
+}
+.trade_block p{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.trade_block{
+  border-top: 4px solid #0060FF;
+  border-bottom: 4px solid #0060FF;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  width: 32%;
+  font-size: 1.2em;
+}
+
+.trade_block form{
+  margin: 0;
+  padding: 0;
+}
+
+.trade_block p{
+  text-align: left;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+/*-------------------------------BTN------------------------*/
+.orderBtn{
+  width: 35%;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size:1.2em;
+  border: solid 2px #e69500;
+  line-height: 2.5;
+  border-radius: 20px;
+  background-color: #FFD000 ;
+  box-shadow: 0px 4px 0px #e69500  ;
+}
+
+.orderBtn:hover{
+  background-color: #ffde23 ;
+  box-shadow: 0px 4px 0px #e69500 ;
+}
+
+.orderBtn:active{
+  box-shadow: 0px 1px 0px #e69500;
+}
+
+.orderBtn img{
+  margin-left: 10px;
+}
+
+.Btn{
+  margin-top: 3%;
+}
+
+.Btn img{
+  position: relative;
+  z-index: 10;
+}
+/*------------------------------------------------------------------*/

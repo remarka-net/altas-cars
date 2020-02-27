@@ -14,11 +14,10 @@ export default function ContactUs() {
         e.target,
         'user_Gaxs51wraDWa3FxtLGuJ9',
       )
-      
       .then(
         result => {
           console.log(result.text);
-          document.getElementById('window_container').style.display = 'block';
+          document.getElementById('window_container3').style.display = 'block';
           /* document.location.reload(true); */
 
           /* if (document.location.onload = (true)){alert('window onload');} */
@@ -29,8 +28,8 @@ export default function ContactUs() {
       );
   }
   return (
-    <form id="contact_form" onSubmit={sendEmail}>
-      <label name="service_name">Предварительный заказ</label>
+    <form id="contact_form3" onSubmit={sendEmail}>
+      <label>Предварительный заказ</label>
       <hr />
 
       <input required type="text" placeholder="Ваше ФИО*" name="user_name" />
@@ -44,16 +43,11 @@ export default function ContactUs() {
 
       <input type="email" placeholder="E-mail" name="user_email" />
 
-      <input
-        id="prodId"
-        name="service_name"
-        type="hidden"
-        value="Компьютерная диагностика"
-      />
+      <input id="prodId" name="service_name" type="hidden" value="Расходник3" />
 
       <input type="submit" value="Сделать заказ" />
 
-      <div id="window_container">
+      <div id="window_container3">
         <div id="okno">
           <p>Спасибо! Мы свяжемся с вами в ближайшее время</p>
           <img src={accepted_icon} alt="accepted" />
