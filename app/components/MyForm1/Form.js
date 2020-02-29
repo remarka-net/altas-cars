@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './Form.css';
 import accepted_icon from './checkmark.svg';
+import $ from 'jquery';
 
 export default function ContactUs() {
   function sendEmail(e) {

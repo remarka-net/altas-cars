@@ -94,7 +94,8 @@
   line-height: 2.5;
   border-radius: 20px;
   background-color: #FFD000 ;
-  box-shadow: 0px 4px 0px #e69500  ;
+  box-shadow: 0px 4px 0px #e69500 ;
+  scroll-behavior: smooth;  
 }
 
 .orderBtn:hover{

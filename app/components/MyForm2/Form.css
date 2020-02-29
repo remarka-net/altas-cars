@@ -8,7 +8,20 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    visibility: visible;
+    animation: 1.5s fadeIn;
+    animation-fill-mode: forwards;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
 
 #contact_form1 label{
     font-size: 24px;
@@ -66,7 +79,7 @@
     left: 0;
     right: 0;
     position: absolute;
-    display: none;
+    visibility: hidden;
   }
 
   /*----------------------------------------------------------------------------------------------------------------------------*/

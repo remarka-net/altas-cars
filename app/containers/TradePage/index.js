@@ -8,11 +8,25 @@ import order from './order_x64.png';
 import MyFormX from '../../components/MyFormX/Form';
 import MyFormX1 from '../../components/MyFormX1/Form';
 import MyFormX2 from '../../components/MyFormX2/Form';
+import $ from 'jquery';
 
 
 export default class Trade extends React.Component {
   render() {
-    // change code below this line
+    $(document).ready(function($) {
+      $('a[href="#contact_form1"],a[href="#contact_form2"],a[href="#contact_form3"]').bind('click.smoothscroll',function (e) {
+        e.preventDefault();
+        var target = this.hash,
+            $target = $(target);
+    
+        $('html, body').stop().animate( {
+          'scrollTop': $target.offset().top-40
+        }, 900, 'swing', function () {
+          window.location.hash = target;
+        } );
+      } );
+    } );
+    
     return (
       <div>
         <p className="subtitle fancy">

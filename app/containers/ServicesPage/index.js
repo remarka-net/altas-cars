@@ -18,6 +18,7 @@ import './index.css';
 import Form1 from '../../components/MyForm1/Form';
 import Form2 from '../../components/MyForm2/Form';
 import Form3 from '../../components/MyForm3/Form';
+import $ from 'jquery';
 
 /*
  *
@@ -29,6 +30,22 @@ import List from './List';
 import ListItem from './ListItem';
 
 export default function FeaturePage() {
+
+  $(document).ready(function($) {
+    $('a[href="#contact_form"],a[href="#contact_form1"],a[href="#contact_form2"]').bind('click.smoothscroll',function (e) {
+      e.preventDefault();
+      var target = this.hash,
+          $target = $(target);
+  
+      $('html, body').stop().animate( {
+        'scrollTop': $target.offset().top-40
+      }, 900, 'swing', function () {
+        window.location.hash = target;
+      } );
+    } );
+  } );
+  
+
   return (
     <div>
       <p className="subtitle fancy">
@@ -210,6 +227,9 @@ export default function FeaturePage() {
         </div>
         <Form3 />
       </div>
+
+
     </div>
+    
   );
 }
