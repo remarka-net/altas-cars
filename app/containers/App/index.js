@@ -22,6 +22,9 @@ import About from 'containers/About/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
+import Page from '../Page';
+import { apiEndpoint } from '../../prismic-configuration';
+
 import GlobalStyle from '../../global-styles';
 
 const AppWrapper = styled.div`
@@ -34,6 +37,8 @@ const AppWrapper = styled.div`
 `;
 
 export default function App() {
+  const repoNameArray = /([^/]+)\.cdn.prismic\.io\/api/.exec(apiEndpoint);
+  const repoName = repoNameArray[1];
   return (
     <AppWrapper>
       <Helmet
@@ -41,6 +46,11 @@ export default function App() {
         defaultTitle="React.js Boilerplate"
       >
         <meta name="description" content="A React.js Boilerplate application" />
+        <script
+          async
+          defer
+          src={`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`}
+        />
       </Helmet>
       <Header />
       <Switch>
@@ -50,6 +60,7 @@ export default function App() {
         <Route path="/NewsPage" component={NewsPage} />
         <Route path="/TradePage" component={TradePage} />
         <Route path="/About" component={About} />
+        <Route exact path="/page/:uid" component={Page} />
         <Route path="" component={NotFoundPage} />
       </Switch>
       <Footer />
