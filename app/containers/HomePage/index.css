@@ -263,3 +263,11 @@
 
 
   /*-----------------------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1200px){
+    #main_div{
+        background-image: url('./main_pic2.jpg');
+        background-size: cover;
+        background-position: 0 0;
+    }
+}
