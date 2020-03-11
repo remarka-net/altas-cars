@@ -18,6 +18,7 @@ function Header() {
   $('.header-btn').on('click', function(){
     $('#headlines').addClass('active').focus();
     $('.header-btn').attr('id', 'active_menu');
+    $('#main_div').css("filter", "blur(4px)");
   });
 
   const $menu = $('#headlines');
@@ -27,27 +28,34 @@ $(document).mouseup(e => {
    && $menu.has(e.target).length === 0) // ... nor a descendant of the container
    {
      $menu.removeClass('active');
+     $('#main_div').css("filter", "");
   }
  });
 
 
   $('#headlines').on('focusout', function () {
     $('#headlines').removeClass('active');
+    $('#main_div').css("filter", "");
   });
 
    $('#active_menu').on('click', function(){
      $('#headlines').removeClass('active');
      $('#active_menu').removeAttr('id');
+     $('#main_div').css("filter", "");
    });
 
   $( '#headlines a' ).on("click", function(){
     $('#headlines').removeClass('active');
+    $('#main_div').css("filter", "");
   });
   $( 'a[href*="/"]').on("click", function(){
     $('#headlines').removeClass('active');
+    $('#main_div').css("filter", "");
   });
 
 });
+
+// filter: blur(4px);
   
 
   return (
@@ -58,7 +66,7 @@ $(document).mouseup(e => {
         <div></div>
       </div>
 
-      <HeaderLink2 to="/"><Img src={Logo} id="Logo" /></HeaderLink2>
+      <HeaderLink2 to="/"><Img src={Logo} className="Main_logo" id="Logo" /></HeaderLink2>
          
       <ul id="headlines">
         <li>

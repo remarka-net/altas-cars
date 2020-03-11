@@ -264,26 +264,74 @@
 
   /*-----------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 1200px){
+  @media (max-width: 1500px){
     #main_div{
-        background-image: url('./main_pic2.jpg');
         background-size: cover;
-        background-position: 0 0;
+        background-position: center;
+    }
+    .car_item1{
+        left: 15%;
+    }
+  }
+  @media (max-width: 1300px){
+    .car_item1{
+        left: 10%;
+    }
+}
+/*********************************** 1200px *************************************/
+
+@media (max-width: 1200px){
+    .main_header{
+        padding: 10px 0;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .Main_items{
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+        margin: 50px auto;
+        height: 50%;
+        justify-content: space-between;
+    }
+    .car_item1,.car_item2, .car_item3, .car_item4, .car_item5, .car_item6{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+        font-size: 1.2em;
+    }
+    .car_item1 span, .car_item2 span, .car_item3 span, .car_item4 span, .car_item5 span, .car_item6 span{
+        position: relative;
+        min-width: max-content;
+    }
+    .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
+        position: relative;
+        top: -25%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        font-size: 1.1em;
     }
 }
 
 @media (max-width: 1000px){
     .main_header{
         font-size: 1.5em;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
+        text-align: center;
     } 
+}
+@media (max-width: 830px){
+    .main_header{
+        line-height: 1;
+    }
 }
 
 @media (max-width: 600px){
         /*-------------------------TIMELESS CSS******************/
-        .car_item5{
+        .social_icons{
             display: none;
         }
         /***************************************/
@@ -294,5 +342,17 @@
         background-image: url('./main_pic2.jpg');
         background-size: cover;
         background-position: 0 0;
+    }
+}
+@media (max-width: 399px){
+    .car_item1,.car_item2, .car_item3, .car_item4, .car_item5, .car_item6{
+        font-size: 1em;
+    }
+    .Main_items{
+        height: 70%;
+    }
+    .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
+        font-size: 0.9em;
+        top: -15%;
     }
 }

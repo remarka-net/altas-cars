@@ -97,3 +97,9 @@
     cursor:pointer;
   }
   .close:hover {background: #e6e6ff;}
+
+  @media (max-width: 500px){
+      .contact-form{
+        width: 100%;
+      }
+  }

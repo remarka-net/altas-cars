@@ -22,7 +22,7 @@ export default function Fruits() {
           <h2 className="main_header">
             Автосервис ALTAS готов предложить вам полный спектр услуг
           </h2>
-
+        <div className="Main_items">
           <div className="car_item1">
             <span>Проверка и диагностика двигателя</span>
           </div>
@@ -64,6 +64,7 @@ export default function Fruits() {
           <div className="car_item6_extend">
             Полная юридическая проверка авто при продаже, а также сопровождение
             сделки.
+          </div>
           </div>
 
           {/* -----------------------------------------------------END OF ORDER FORM--------------------------------------------------------*/}
