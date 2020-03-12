@@ -190,8 +190,11 @@
         .header-btn{
             position: relative;
         }
-        .Main_logo{
-            max-width: 80%;
+        header{
+            height: 130px;
+        }
+        #headlines, #headlines.active{
+            top:130px;
         }
     }
     @media (max-width: 670px){
@@ -209,7 +212,7 @@
             margin: 0;
         }
         .header-btn div {
-            width: 70%;
+            width: 55%;
             height: 5px;
             margin: 7px 0;
             padding: 0 10px;
@@ -224,8 +227,19 @@
             min-width: 25%;
             background: rgba(255, 255, 255, 0);
         }
+        header{
+            height: 120px;
+        }
+        #headlines, #headlines.active{
+            top:120px;
+        }
         .Main_logo {
-            max-width: 90%;
+            width: 100%;
+        }
+        .header-btn div {
+            width: 55%;
+            height: 4px;
+            margin: 5px 0;
         }
         #headlines li{
             word-wrap: break-word; 
@@ -244,15 +258,21 @@
             min-width: 25%;
         }
         .header-btn div {
-            width: 65%;
-            height: 4px;
-            margin: 6px 0;
+            width: 55%;
+            height: 3px;
+            margin: 4px 0;
+        }
+        header{
+            height: 100px;
+        }
+        #headlines, #headlines.active{
+            top:100px;
         }
     }
     @media (max-width: 360px){
     .header-btn div {
-    width: 60%;
-    height: 4px;
+    width: 55%;
+    height: 3px;
     margin: 6px 0;
     }
     .header-btn {

@@ -19,18 +19,18 @@ function Header() {
       $('#main_div').css("filter", "blur(4px)");
     });
 
+
     const $menu = $('#headlines');
 
-    $(document).mouseup(e => {
-      if (!$menu.is(e.target) // if the target of the click isn't the container...
-        $menu.has(e.target).length === 0
-      ) {
-        // ... nor a descendant of the container
-      {
-        $menu.removeClass('active');
-        $('#main_div').css("filter", "");
-      }
-    });
+$(document).mouseup(e => {
+   if (!$menu.is(e.target) // if the target of the click isn't the container...
+   && $menu.has(e.target).length === 0) // ... nor a descendant of the container
+   {
+    $menu.removeClass('active');
+    $('#main_div').css("filter", "");
+  }
+ });
+  
 
     $('#headlines').on('focusout', function() {
       $('#headlines').removeClass('active');
