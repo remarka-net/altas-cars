@@ -8,12 +8,16 @@ import './index.css';
 import MyForm from '../../components/MyForm/Form';
 import Image from './image.jpg';
 import ContactInfo from '../../components/contact_info';
+
 {
   /* import { Map, GoogleApiWrapper } from 'google-maps-react';
 import ContactInfo from '../../components/contact_info/index'; */
 }
 
 export default function Fruits() {
+
+
+
   return (
     <div className="main_wrapper">
       <div id="main_div">

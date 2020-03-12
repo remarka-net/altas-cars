@@ -358,6 +358,12 @@
         bottom: 0;
         font-size: 1.1em;
     }
+    .our_service article{
+        margin-top: 15%;
+    }
+    .contact-form{
+        margin-left: 2%;
+    }
 }
 
 @media (max-width: 1000px){
