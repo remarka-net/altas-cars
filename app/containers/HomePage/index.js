@@ -78,8 +78,8 @@ export default function Fruits() {
         <h3 className="second_headline">
           Предлагаем для вас услуги планового ТО автомобиля
         </h3>
-        <MyForm />
 
+        <MyForm />
         <figure>
           <img src={Image} alt="image" />
           <figcaption>Диагностика авто</figcaption>

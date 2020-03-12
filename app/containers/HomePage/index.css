@@ -263,7 +263,17 @@
 
 
   /*-----------------------------------------------------------------------------------------------------------------------*/
+  @media (max-width: 1750px){
+    .our_service article{
+          margin-top: 5%;
+      }
+  }
 
+  @media (max-width: 1600px){
+    .our_service article{
+          margin-top: 10%;
+      }
+  }
   @media (max-width: 1500px){
     #main_div{
         background-size: cover;
@@ -272,10 +282,39 @@
     .car_item1{
         left: 15%;
     }
+    .our_service{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    .contact-form{
+        margin-left:6%;
+    }
+    .our_service figure{
+        margin-left: 50px;
+        margin: auto;
+    }
+    .our_service figcaption{
+        text-align: center;
+    }
+    .our_service article{
+        margin-top: 5%;
+        border-left: none;
+    }
   }
+
+  @media (max-width: 1350px){
+    .our_service article{
+        margin-top: 7%;
+    }
+}
+
   @media (max-width: 1300px){
     .car_item1{
         left: 10%;
+    }
+    .our_service article{
+        margin-top: 10%;
     }
 }
 /*********************************** 1200px *************************************/
@@ -302,10 +341,14 @@
         bottom: 0;
         text-align: right;
         font-size: 1.2em;
+        text-align: left;
     }
     .car_item1 span, .car_item2 span, .car_item3 span, .car_item4 span, .car_item5 span, .car_item6 span{
         position: relative;
         min-width: max-content;
+        padding-right: 0;
+        padding-left: 25px;
+        background-position: left;
     }
     .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
         position: relative;

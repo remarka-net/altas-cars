@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { client, linkResolver } from '../prismic-configuration';
-import Prismic from 'prismic-javascript';
-import { Date, Link, RichText } from 'prismic-reactjs';
+// import Prismic from 'prismic-javascript';
+// import { Date, Link, RichText } from 'prismic-reactjs';
 
 
 const Page = ({ match }) => {
