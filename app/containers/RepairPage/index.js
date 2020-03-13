@@ -52,7 +52,8 @@ export default function Fruits() {
   
   return (
     <div id="info">
-      <div>
+      
+       <div className="Info_head">
         <p className="subtitle fancy">
           <span>Регламент ТО</span>
         </p>

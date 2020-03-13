@@ -29,9 +29,13 @@ export default class Trade extends React.Component {
     
     return (
       <div>
+        
+        <div className="Info_head">
         <p className="subtitle fancy">
       <span>Торговая площадка</span>
     </p>
+    </div>
+    
     <div id="trade_blocks">
       
     <div className="trade_block">

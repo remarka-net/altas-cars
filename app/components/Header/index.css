@@ -186,6 +186,19 @@
       }
     }
 
+    /* @media (max-width: 900px){
+        .phone_call{
+            display: block;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+            background-color: rgba( 77,165,3, 1) ;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    } */
+
     @media (max-width: 800px){
         .header-btn{
             position: relative;

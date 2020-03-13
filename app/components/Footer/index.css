@@ -35,3 +35,27 @@
     margin-top: 5px;
     color: #fff;
 }
+
+@media (max-width: 900px){
+    #footer_content{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .social_icons{
+        width: 100%;
+    }
+    .item{
+        display: none;
+    }
+    .copyright{
+    text-align: center;
+    margin: 0 auto;
+    }
+    #wrapper p {
+        margin-bottom: 5px;
+    }
+    Footer{
+        height: fit-content;
+    }
+}

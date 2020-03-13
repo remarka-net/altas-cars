@@ -37,6 +37,12 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+.Info_head{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 /*=================================+++++++++++++++++++++++++++++++++++++++Headline ONLY-----------------------------*/
 
 .first_text{

@@ -48,9 +48,11 @@ export default function FeaturePage() {
 
   return (
     <div>
+      <div className="Info_head">
       <p className="subtitle fancy">
         <span>Наши услуги</span>
       </p>
+      </div>
 
       <h1 className="Services_headline">
         ТОВ "ALTAS" предлагает вам полный спектр услуг

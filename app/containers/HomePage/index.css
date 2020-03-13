@@ -258,6 +258,10 @@
     text-align: center;
 }
 
+.mobile_service_auto_info{
+    display: none;
+}
+
 /*HIDE ALTERT STYLES--------------------------------*/
 
 
@@ -287,6 +291,10 @@
         padding-right: 10%;
         text-align: center;
     }
+    .map_contacts{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     .contact-form{
         margin-left:6%;
     }
@@ -300,6 +308,9 @@
     .our_service article{
         margin-top: 5%;
         border-left: none;
+    }
+    .second_headline{
+        margin-bottom: 0;
     }
   }
 
@@ -366,31 +377,124 @@
     }
 }
 
+@media (max-width: 1024px){
+    .our_service{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .map_contacts{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .service_auto_info{
+        display: none;
+    }
+    .mobile_service_auto_info{
+        display: block;
+    }
+}
+
 @media (max-width: 1000px){
     .main_header{
         font-size: 1.5em;
         text-align: center;
     } 
 }
+@media (max-width: 900px){
+    .our_service article{
+        margin-top: 20%;
+    }
+    .second_headline{
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 850px){
+    .contact-form{
+        margin: 0 auto;
+        float: none;
+        padding: 0 !important;
+    }
+    .service_block{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        order:-1;
+    }
+    .our_service img {
+        width: 100%;
+    }
+    .our_service figcaption {
+        font-size: 1.8em;
+    }
+    .our_service figure {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    .our_service article {
+        margin-top: 5%;
+    }
+    .map_contacts{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 830px){
     .main_header{
         line-height: 1;
     }
 }
 
-@media (max-width: 600px){
-        /*-------------------------TIMELESS CSS******************/
-        .social_icons{
-            display: none;
-        }
-        /***************************************/
+@media (max-width: 650px){
+    .infoBlock {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        flex-direction: column;
+    }
+    .textBlock1, .textBlock2{
+        width: 70%;
+        margin: 1% auto !important;
+        word-wrap: none;
+    }
 }
+
+@media (max-width: 600px){
+        .second_headline {
+            line-height: 1.2;
+        }
+}
+
+/********************MOBILE RESOLUTION******************************/
 
 @media (max-width: 500px){
     #main_div{
         background-image: url('./main_pic2.jpg');
         background-size: cover;
         background-position: 0 0;
+    }
+    .service_auto_info{
+        display: none;
+    }
+    .mobile_service_auto_info{
+        display: block;
+    }
+    .main_header {
+        font-size: 2em;
+    }
+    .second_headline{
+        font-size: 2em;
+    }
+    .map_contacts h4{
+        font-size: 2em;
+    }
+    .our_service article {
+        font-size: 1.5em;
+    }
+    .textBlock1, .textBlock2{
+        width: 90%;
     }
 }
 @media (max-width: 399px){
@@ -400,8 +504,19 @@
     .Main_items{
         height: 70%;
     }
+    .contact-form label {
+        font-size: 22px !important;
+    }
     .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
         font-size: 0.9em;
         top: -15%;
+    }
+    .textBlock1, .textBlock2{
+        width: 95%;
+    }
+}
+@media (max-width: 360px){
+    .infoBlock p{
+        font-size: 20px;
     }
 }

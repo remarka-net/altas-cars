@@ -12,7 +12,8 @@ export default class About extends React.Component {
     // change code below this line
     return (
       <div id="m_part">
-      <div>
+        
+      <div className="Info_head">
         <p className="subtitle fancy">
           <span>ТОВ “ALTAS”</span>
         </p>

@@ -42,6 +42,14 @@
   text-align: center;
   margin: 0 auto;
 }
+.Info_head{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.subtitle fancy{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* 
 iframe{
   border:0;background-color: transparent;width:100%;height:2000px;

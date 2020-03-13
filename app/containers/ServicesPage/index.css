@@ -276,6 +276,10 @@ body{
   position: relative;
   z-index: 10;
 }
+.Info_head{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 /*--------------------------------------end of Outer block styles --------------------------------------------*/
 

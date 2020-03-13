@@ -21,6 +21,7 @@ import TradePage from 'containers/TradePage/Loadable';
 import About from 'containers/About/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
+import MyPhone from 'components/phone_icon/index';
 
 import Page from '../Page';
 import { apiEndpoint } from '../../prismic-configuration';
@@ -53,6 +54,7 @@ export default function App() {
         />
       </Helmet>
       <Header />
+      <MyPhone />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/ServicesPage" component={ServicesPage} />

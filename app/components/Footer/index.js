@@ -13,7 +13,7 @@ import Social from './social';
 
 function Footer() {
   return (
-    <div>
+    <div className="Footer_wrap">
     <Wrapper>
       <div id="footer_content">
       <ItemList />

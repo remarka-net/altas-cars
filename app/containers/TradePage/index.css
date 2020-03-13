@@ -28,6 +28,10 @@
     left: 100%;
     margin-left: 0;
   }
+  .Info_head{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
 .repair_headline{
     font-size: 1.8em;

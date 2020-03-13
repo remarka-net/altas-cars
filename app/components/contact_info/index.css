@@ -38,3 +38,10 @@
     font-size: 30px;
     text-align: center;
 }
+
+@media  (max-width: 650px){
+    .map-responsive {
+
+        padding-bottom: 100%;
+    }
+}
