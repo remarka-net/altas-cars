@@ -38,20 +38,20 @@ const AppWrapper = styled.div`
 `;
 
 export default function App() {
-  const repoNameArray = /([^/]+)\.cdn.prismic\.io\/api/.exec(apiEndpoint);
-  const repoName = repoNameArray[1];
+  // const repoNameArray = /([^/]+)\.cdn.prismic\.io\/api/.exec(apiEndpoint);
+  // const repoName = repoNameArray[1];
   return (
     <AppWrapper>
       <Helmet
         titleTemplate="%s - React.js Boilerplate"
         defaultTitle="React.js Boilerplate"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
-        <script
+        <meta name="description" content="A React.js application" />
+        {/* <script
           async
           defer
           src={`//static.cdn.prismic.io/prismic.js?repo=${repoName}&new=true`}
-        />
+        /> */}
       </Helmet>
       <Header />
       <MyPhone />
