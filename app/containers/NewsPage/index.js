@@ -2,12 +2,19 @@
 import React from 'react';
 import './index.css';
 import { render } from "react-dom";
+import loader from './ajax-loader.gif';
+import $ from 'jquery';
 
 
 export default class Colorful extends React.Component {
 
 
   render() {
+
+    $(document).ready(function() {
+      $('#indicator').show();
+      getRSS("http://feeds2.feedburner.com/jquery/");
+  }) ;
     
     // change code below this line
     return (
@@ -19,6 +26,9 @@ export default class Colorful extends React.Component {
           <span>АвтоНовости</span>
         </p>
         </div>
+
+        <img src={src} id="indicator" alt="загрузка" />
+        <div id="rssContent"></div> 
 
       {/* 
       <div className="NewsBlock">
