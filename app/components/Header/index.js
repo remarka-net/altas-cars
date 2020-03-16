@@ -17,6 +17,7 @@ function Header() {
       $('#headlines').addClass('active').focus();
       $('.header-btn').attr('id', 'active_menu');
       $('#main_div').css("filter", "blur(4px)");
+      $('#info').css("filter", "blur(4px)");
     });
 
 
@@ -28,6 +29,7 @@ $(document).mouseup(e => {
    {
     $menu.removeClass('active');
     $('#main_div').css("filter", "");
+    $('#info').css("filter", "");
   }
  });
   

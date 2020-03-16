@@ -331,6 +331,10 @@
 /*********************************** 1200px *************************************/
 
 @media (max-width: 1200px){
+    #main_div{
+        background-image: url('./bmw-alpina-b7-xdrive-2017.jpg');
+        background-position: 50% 0;
+    }
     .main_header{
         padding: 10px 0;
         max-width: 95%;
@@ -471,9 +475,9 @@
 
 @media (max-width: 500px){
     #main_div{
-        background-image: url('./main_pic2.jpg');
+        background-image: url('./bmw-alpina-b7-xdrive-2017.jpg');
         background-size: cover;
-        background-position: 0 0;
+        background-position: 50% 100%;
     }
     .service_auto_info{
         display: none;

@@ -302,7 +302,7 @@ ul.tabs {
 
 .table_headline{
   font-size: 1.2em;
-  line-height: 0.5;
+  line-height: 1;
   width: 30%;
   text-align: left;
 }
@@ -601,3 +601,117 @@ ul.tabs {
   border-radius:10px;
   border: 3px solid #0060FF !important;
 }
+
+#Auto_table1{
+  max-width: 100%; 
+  overflow: auto;
+}
+
+
+  @media (max-width: 1650px){
+    .tabbed_area{
+      max-width: 100%;
+    }
+    .table_block{
+      max-width: 100%;
+      overflow: auto;
+      margin: 0 auto;
+    }  
+    .table_headline {
+      font-size: 1.0em;
+    }
+    .table_headline span {
+      white-space:nowrap;
+      font-size: 0.3em;
+    }
+    #Auto_table > tr > td:first-child, #Auto_table1 > tr > td:first-child {
+      font-size: 1.2em;
+    }
+    .content{
+      padding-left: 5px;
+    }
+    .table_block{
+      overflow-y: scroll;
+    } 
+    #Auto_table, #Auto_table1{
+      max-width: 100%;
+    }
+    ul.tabs{
+      margin-right: 0;
+    }
+  }
+  @media (max-width: 1400px){
+    #Auto_table, #Auto_table1{
+      line-height: 1;
+      border-spacing: 1px;
+      box-shadow: inset 0px 0px 150px 80px #fff;
+    }
+    #Auto_table th p, #Auto_table1 th p{
+      height: 40px;
+      width: 40px;
+    }
+    element {
+
+    }
+    *, ::before, ::after {
+    
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    
+    }
+    .first_row {
+        font-size: 1em;
+    }
+    .table_headline{
+      font-size: 1.5em;
+    }
+    #Auto_table1 tr td img {
+      height: 30px;
+  }
+  }
+  @media (max-width: 830px){
+
+    #Auto_table > tr > td:first-child, #Auto_table1 > tr > td:first-child {
+      font-size: 1.2em;
+      min-width: 150px;
+  } 
+  .Auto_text {
+    font-size: 1.0em;
+}
+  .repair_headline {
+    font-size: 1.5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .Auto_headline1 {
+    font-size: 1.5em;
+  }
+  .Auto_headline {
+    font-size: 1.5em;
+    padding-bottom: 0;
+}
+ul.tabs{
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  border-left: 0px solid #000;
+}
+ul.tabs li a {
+  border-radius: 10px;
+}
+ul.tabs li a img {
+  width: 70px;
+}
+  }
+  @media (max-width: 350px){
+    .repair_headline {
+      font-size: 1.4em;
+    }
+    .Auto_headline {
+      font-size: 1.3em;
+    }
+    .Auto_headline1 {
+      font-size: 1.3em;
+    }
+  }

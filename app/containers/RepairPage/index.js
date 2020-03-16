@@ -126,10 +126,12 @@ export default function Fruits() {
  
         <div id="content_1" class="content">
          <p className="Auto_headline">ТО для автомобиля Audi A8</p>
-        <table id="Auto_table1">
+
+        <div className="table_block" >
+
+        <table id="Auto_table1" class="delivery">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
-
           <th><p>10</p></th>
           <th><p>20</p></th>
           <th><p>30</p></th>
@@ -283,6 +285,8 @@ export default function Fruits() {
         
         </table>
 
+        </div>
+
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
 
 
@@ -298,6 +302,9 @@ export default function Fruits() {
         <div id="content_2" class="content">
          
         <p className="Auto_headline">ТО для автомобиля BMW X5</p>
+
+        <div className="table_block" >
+
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -454,6 +461,7 @@ export default function Fruits() {
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
 
@@ -475,6 +483,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_3" class="content">
         <p className="Auto_headline">ТО для автомобиля Chevrolet Lacetti</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -646,6 +655,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+       </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -664,6 +674,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_4" class="content">
         <p className="Auto_headline">ТО для автомобиля Daewoo Matiz</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -805,6 +816,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -823,6 +835,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_5" class="content">
         <p className="Auto_headline">ТО для автомобиля Ford Focus 3</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -949,6 +962,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -967,6 +981,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_6" class="content">
         <p className="Auto_headline">ТО для автомобиля Honda CRV-III</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -1140,6 +1155,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
 
@@ -1170,6 +1186,8 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_7" class="content">
         <p className="Auto_headline">ТО для автомобиля Hundai Santa Fe</p>
+
+        <div className="table_block" >
         <table id="Auto_table">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -1372,6 +1390,7 @@ BMW X5 официально продавался и в России, его гл
             <td></td>
           </tr>
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -1388,6 +1407,8 @@ BMW X5 официально продавался и в России, его гл
          </p>
 
          <p className="Auto_headline">ТО для автомобиля Hundai Tucson ix35</p>
+
+         <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -1575,6 +1596,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -1596,6 +1618,9 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_8" class="content">
         <p className="Auto_headline">ТО для автомобиля Hundai KIA Ceed</p>
+
+        <div className="table_block">
+
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -1783,6 +1808,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -1801,6 +1827,7 @@ BMW X5 официально продавался и в России, его гл
         
         <div id="content_9" class="content">
         <p className="Auto_headline">ТО для автомобиля Mazda 6 2006</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -1940,6 +1967,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -1957,6 +1985,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_10" class="content">
         <p className="Auto_headline">ТО для Mercedes</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -2096,6 +2125,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -2113,6 +2143,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_11" class="content">
         <p className="Auto_headline">ТО для Mitsubishi Outlander 3</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -2284,6 +2315,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -2301,6 +2333,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_12" class="content">
         <p className="Auto_headline">ТО для Nissan Qashqai</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -2473,6 +2506,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
 
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
@@ -2491,6 +2525,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_13" class="content">
         <p className="Auto_headline">ТО для Opel Astra J</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -2663,6 +2698,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -2680,6 +2716,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_14" class="content">
         <p className="Auto_headline">ТО для Peugeot 107</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -2838,6 +2875,7 @@ BMW X5 официально продавался и в России, его гл
           
         
         </table>
+        </div>
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -2854,6 +2892,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_15" class="content">
         <p className="Auto_headline">ТО для Renault Logan 2</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -3012,6 +3051,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -3028,6 +3068,7 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_16" class="content">
         <p className="Auto_headline">ТО для Skoda Fabia II</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -3169,6 +3210,7 @@ BMW X5 официально продавался и в России, его гл
           </tr>
         
         </table>
+        </div>
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -3186,6 +3228,7 @@ BMW X5 официально продавался и в России, его гл
 
         <div id="content_17" class="content">
         <p className="Auto_headline">ТО для Toyota Camry</p>
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -3327,6 +3370,7 @@ BMW X5 официально продавался и в России, его гл
     
         
         </table>
+        </div>
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -3343,6 +3387,8 @@ BMW X5 официально продавался и в России, его гл
         </div>
         <div id="content_18" class="content">
         <p className="Auto_headline">ТО для Volkswagen Polo Sedan</p>
+
+        <div className="table_block" >
         <table id="Auto_table1">
           <tr className="first_row">
           <th className="table_headline">Требует замены <span>(тыс. км.)</span></th>
@@ -3469,6 +3515,8 @@ BMW X5 официально продавался и в России, его гл
     
         
         </table>
+        </div>
+
         <p className="Auto_headline1">Дополнительное инфо о модели</p>
          <p className="Auto_text">
          тилетней гарантией.
@@ -3485,8 +3533,10 @@ BMW X5 официально продавался и в России, его гл
         </div>
  
     </div>
+
+    </div>
  
-</div>
+
 
 
 

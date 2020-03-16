@@ -283,6 +283,134 @@ body{
 
 /*--------------------------------------end of Outer block styles --------------------------------------------*/
 
+@media (max-width: 1700px){
+  .car_repair {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .main_car_repair {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .service_order {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 1200px){
+  .service_order_article {
+    width: 50%;
+    float: left;
+    /* padding-top: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1100px){
+  .Btn {
+    margin-top: 5%;
+}
+}
+@media (max-width: 1000px){
+  .orderBtn {
+    margin-bottom: 2%;
+  }
+  .Btn {
+    margin-top: 0;
+}
+}
+@media (max-width: 900px){
+  .service_order_article p {
+    text-align: left;
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media (max-width: 830px){
+  .service_item1 {
+    font-size: 1em;
+    max-width: 80%;
+  }
+  .service_item_bottom {
+    max-width: 20%;
+    font-size: 1em;
+  }
+  .Services_headline {
+    font-size: 1.5em;
+  }
+  .service_order {
+    margin-top: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+  }
+  .service_order_article {
+    width: 70%;
+    /* float: left; */
+    /* padding-top: 20px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+  }
+  .service_order_pic {
+    width: 70%;
+    float: left;
+    display: block;
+    margin: auto;
+  }
+  .main_car_repair p {
+    white-space: nowrap;
+  }
+  .main_icon p {
+    white-space: nowrap;
+  }
+  .main_icon p {
+    white-space: nowrap;
+    font-size: 0.8em;
+}
+}
+@media (max-width: 500px){
+  .Services_headline {
+    font-size: 1.2em;
+  }
+  .main_icon p {
+    font-size: 0.6em;
+  }
+  .car_repair {
+    padding-left: 0;
+    padding-right: 0;
+}
+.main_car_repair {
+  margin-left: 0;
+  margin-right: 0;
+}
+.service_order_pic {
+  width: 100%;
+}
+.service_order_article {
+  width: 100%;
+}
+.orderBtn {
+  width: 60%;
+}
+}
+@media (max-width: 400px){
+  .main_icon p {
+    display: none;
+}
+.car_repair img:not(.service_car) {
+  width: 40%;
+}
+.main_car_repair img:not(.service_car) {
+  width: 40%;
+}
+}
 
 
 
