@@ -84,6 +84,12 @@
   padding-left: 1%;
   padding-right: 1%;
 }
+ .trade_block h3{
+  font-family: 'Exo 2',sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+  font-size: 1.3em;
+ }
 /*-------------------------------BTN------------------------*/
 .orderBtn{
   width: 35%;
@@ -124,3 +130,133 @@
   z-index: 10;
 }
 /*------------------------------------------------------------------*/
+
+@media (max-width: 1750px){
+  #trade_blocks {
+    width: 95%;
+  }
+  .trade_block{
+    position: relative;
+  }
+    #contact_formX3:target {
+      border: 4px solid #50A0ED;
+      border-radius: 20px;
+      display: block;
+      align-items: center;
+      visibility: visible;
+      animation: 1.5s fadeIn;
+      animation-fill-mode: forwards;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+    #contact_formX2:target {
+      border: 4px solid #50A0ED;
+      border-radius: 20px;
+      width: 29%;
+      display: block;
+      align-items: center;
+      visibility: visible;
+      animation: 1.5s fadeIn;
+      animation-fill-mode: forwards;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+  #contact_formX1:target {
+    border: 4px solid #50A0ED;
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    visibility: visible;
+    animation: 1.5s fadeIn;
+    animation-fill-mode: forwards;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+  }
+@media (max-width:1650px){
+  .orderBtn {
+    width: 50%;
+  }
+}
+@media (max-width: 1150px){
+  .trade_block {
+    font-size: 1.0em;
+  }
+  .orderBtn {
+    width: 60%;
+  }
+  #okno{
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 900px){
+  #trade_blocks{
+      display: flex;
+      flex-direction: column;
+  }
+  .trade_block {
+    border-top: 4px solid #0060FF;
+    border-bottom: 0;
+    padding-top: 1%;
+    width: 60%;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+}
+@media (max-width: 750px){
+  #trade_blocks {
+    width: 100%;
+}
+}
+@media (max-width: 650px){
+  .trade_block {
+    width: 70%;
+}
+}
+@media (max-width: 550px){
+  .trade_block {
+    width: 80%;
+    padding-bottom: 20px;
+}
+}
+@media (max-width: 450px){
+  .trade_block {
+    width: 90%;
+}
+}
+@media (max-width: 400px){
+  .trade_block {
+    width: 100%;
+}
+.trade_block .order_img {
+  width: 100%;
+}
+.trade_block p {
+  text-align: left;
+   padding-left: 0;
+   padding-right: 0;
+}
+.trade_block p {
+  width: 95%;
+  font-size: 1em;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+  height: content;
+  font-size: 2em;
+  padding: 10px;
+  border: solid 3px #0060FF;
+  border-radius: 30px;
+  line-height: 1.0;
+}
+}

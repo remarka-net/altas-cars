@@ -97,3 +97,71 @@
     margin-right: 10px;
     width: 45%;
 } */
+
+@media (max-width: 1024px){
+  .map_contacts{
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+}
+@media (max-width: 850px){
+  .map_contacts{
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+@media (max-width: 650px){
+  .infoBlock {
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      flex-direction: column;
+  }
+  .textBlock1, .textBlock2{
+      width: 70%;
+      margin: 1% auto !important;
+      word-wrap: none;
+  }
+  #m_part .attention {
+    width: 100%;
+}
+h1 {
+  margin: 0 0;
+}
+}
+@media (max-width: 500px){
+  .map_contacts h4{
+      font-size: 2em;
+  }
+  .textBlock1, .textBlock2{
+      width: 90%;
+  }
+  .car_gallery img {
+    width: 80%;
+  }
+  .car_gallery {
+    display: flex;
+    flex-direction: column;
+}
+.first_text h1 {
+  font-size: 1.4em;
+}
+}
+@media (max-width: 399px){
+  .textBlock1, .textBlock2{
+      width: 95%;
+  }
+  .car_gallery img {
+    width: 100%;
+}
+p, label {
+  font-family: 'Exo 2',sans-serif;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+}
+@media (max-width: 360px){
+  .infoBlock p{
+      font-size: 20px;
+  }
+}

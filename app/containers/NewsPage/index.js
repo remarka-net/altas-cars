@@ -15,7 +15,7 @@ export default class Colorful extends React.Component {
 
     return (
 
-      <div>
+      <div className="NewsContent">
         
         <div className="Info_head">
         <p className="subtitle fancy">
@@ -26,6 +26,7 @@ export default class Colorful extends React.Component {
         <div className="feed_wrapper">
         <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=caf7a286613ccd15c6e9ef927" ></iframe>
         </div>
+
         </div>
 
 

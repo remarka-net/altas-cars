@@ -87,12 +87,15 @@
 #window_container1 {
     background: #fff;
     height: inherit;
+    width: inherit;
     position: absolute;
     display: none;
   }
   #okno {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     height: 100%;
+    width: 100%;
+    padding: 0;
     text-align: center;
     font-size:2em;
     padding: 15px;
@@ -112,4 +115,12 @@
       width: 50%;
       height: 50%;
   }
-  
+  #contact_form1 label {
+    font-size: 24px;
+    text-align: center;
+}
+  @media (max-width: 500px){
+    #contact_form1:target {
+      width: 100%;
+    }
+  }

@@ -16,8 +16,6 @@ import ContactInfo from '../../components/contact_info/index'; */
 
 export default function Fruits() {
 
-
-
   return (
     <div className="main_wrapper">
       <div id="main_div">

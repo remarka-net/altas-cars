@@ -1,8 +1,7 @@
 
-#contact_form1:target{
+#contact_formX1:target{
     border: 4px solid #50A0ED;
     border-radius: 20px;
-    width: 29%;
     display: block;
     align-items: center;
     visibility: visible;
@@ -20,11 +19,11 @@
     }
   }
 
-#contact_form1 label{
+#contact_formX1 label{
     font-size: 24px;
 }
 
-#contact_form1 hr{
+#contact_formX1 hr{
     width: 90%;
     margin-bottom: 10px;
     border: none; /* Убираем границу для браузера Firefox */
@@ -33,7 +32,7 @@
     height: 2px;
 }
 
-#contact_form1 input{
+#contact_formX1 input{
     width:90%;
     padding: 10px;
     margin-bottom: 20px;
@@ -43,7 +42,7 @@
     font-size:20px;
 }
 
-#contact_form1 input[type="submit"] {
+#contact_formX1 input[type="submit"] {
     margin-top: 0;
     margin-bottom: 0;
     outline:none;
@@ -56,18 +55,18 @@
 }
 
 
-#contact_form1 input[type="submit"]:hover{
+#contact_formX1 input[type="submit"]:hover{
     background-color: #61A9EE  ;
     box-shadow: 0px 4px 0px #3870A5;
 
 }
 
-#contact_form1 input[type="submit"]:active{
+#contact_formX1 input[type="submit"]:active{
     box-shadow: 0px 1px 0px #3870A5;
 }
 
 /*---old block ---------------------------------------*/
-#contact_form1 {
+#contact_formX1 {
     background: rgba(102, 102, 102, 0.8);
     width: 29%;
     height: 400px;

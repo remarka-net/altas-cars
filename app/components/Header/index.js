@@ -18,6 +18,8 @@ function Header() {
       $('.header-btn').attr('id', 'active_menu');
       $('#main_div').css("filter", "blur(4px)");
       $('#info').css("filter", "blur(4px)");
+      $('.Services_main').css("filter", "blur(4px)");
+      $('.NewsContent').css("filter", "blur(4px)");
     });
 
 
@@ -30,6 +32,8 @@ $(document).mouseup(e => {
     $menu.removeClass('active');
     $('#main_div').css("filter", "");
     $('#info').css("filter", "");
+    $('.Services_main').css("filter", "");
+    $('.NewsContent').css("filter", "");
   }
  });
   

@@ -29,6 +29,14 @@ export default function ContactUs() {
         },
       );
   }
+
+  $(document).ready(function(){
+    if($( window ).width() < 1201){
+    $("#FormSubmit").attr("value","Заказать"); 
+  }
+  
+  });
+
   return (
     <form id="contact_form" onSubmit={sendEmail}>
       <label name="service_name">Предварительный заказ</label>
@@ -52,7 +60,7 @@ export default function ContactUs() {
         value="Компьютерная диагностика"
       />
 
-      <input type="submit" value="Сделать заказ" />
+      <input id="FormSubmit" type="submit" value="Сделать заказ" />
 
       <div id="window_container">
         <div id="okno">

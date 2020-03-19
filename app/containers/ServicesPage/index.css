@@ -329,13 +329,17 @@ body{
 }
 
 @media (max-width: 830px){
-  .service_item1 {
-    font-size: 1em;
-    max-width: 80%;
+  .service_item1 span {
+    display: none;
   }
-  .service_item_bottom {
-    max-width: 20%;
-    font-size: 1em;
+  .service_item_bottom span {
+    display: none;
+  }
+  .service_item_bottom1 span{
+    display: none;
+  }
+  .service_item_bottom2 span{
+    display: none;
   }
   .Services_headline {
     font-size: 1.5em;
@@ -375,7 +379,15 @@ body{
     font-size: 0.8em;
 }
 }
+@media (max-width: 550px){
+  .orderBtn {
+   width: 50%;
+  }
+}
 @media (max-width: 500px){
+  #contact_form1:target {
+    width: 100%;
+  }
   .Services_headline {
     font-size: 1.2em;
   }

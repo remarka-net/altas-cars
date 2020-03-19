@@ -20,11 +20,6 @@ import Form2 from '../../components/MyForm2/Form';
 import Form3 from '../../components/MyForm3/Form';
 import $ from 'jquery';
 
-/*
- *
- *
- *
- */
 
 import List from './List';
 import ListItem from './ListItem';
@@ -48,12 +43,14 @@ export default function FeaturePage() {
 
   return (
     <div>
+      <div className="Services_main"> 
+
       <div className="Info_head">
       <p className="subtitle fancy">
         <span>Наши услуги</span>
       </p>
       </div>
-
+      
       <h1 className="Services_headline">
         ТОВ "ALTAS" предлагает вам полный спектр услуг
       </h1>
@@ -147,6 +144,8 @@ export default function FeaturePage() {
           <img src={img5} alt="" />
           <p>Гидравлика</p>
         </div>
+      </div>
+
       </div>
 
       <div className="service_order">
