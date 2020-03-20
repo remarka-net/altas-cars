@@ -21,10 +21,7 @@ function Header() {
       $('.Services_main').css("filter", "blur(4px)");
       $('.NewsContent').css("filter", "blur(4px)");
     });
-
-
     const $menu = $('#headlines');
-
 $(document).mouseup(e => {
    if (!$menu.is(e.target) // if the target of the click isn't the container...
    && $menu.has(e.target).length === 0) // ... nor a descendant of the container
@@ -36,8 +33,6 @@ $(document).mouseup(e => {
     $('.NewsContent').css("filter", "");
   }
  });
-  
-
     $('#headlines').on('focusout', function() {
       $('#headlines').removeClass('active');
       $('#main_div').css("filter", "");

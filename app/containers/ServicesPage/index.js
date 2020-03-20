@@ -45,7 +45,7 @@ export default function FeaturePage() {
     <div>
       <div className="Services_main"> 
 
-      <div className="Info_head">
+      <div className="Info_head" id="Info_id">
       <p className="subtitle fancy">
         <span>Наши услуги</span>
       </p>
@@ -148,7 +148,7 @@ export default function FeaturePage() {
 
       </div>
 
-      <div className="service_order">
+      <div className="service_order" id="Comp_diagnostic">
         <img className="service_order_pic" src={pic1} alt="the car" />
 
         <div className="service_order_article">
@@ -175,7 +175,7 @@ export default function FeaturePage() {
 
       {/* -----------------------------------------Second form-----------------------------------------------------------------------*/}
 
-      <div className="service_order">
+      <div className="service_order" id="Tires">
         <img className="service_order_pic" src={pic2} alt="the car" />
 
         <div className="service_order_article">
@@ -203,7 +203,7 @@ export default function FeaturePage() {
 
       {/* -----------------------------------------Third form-----------------------------------------------------------------------*/}
 
-      <div className="service_order">
+      <div className="service_order" id="Oil">
         <img className="service_order_pic" src={pic3} alt="the car" />
 
         <div className="service_order_article">

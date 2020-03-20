@@ -13,7 +13,7 @@ export default class About extends React.Component {
     return (
       <div id="m_part">
         
-      <div className="Info_head">
+      <div className="Info_head" id="Info_id">
         <p className="subtitle fancy">
           <span>ТОВ “ALTAS”</span>
         </p>
@@ -70,7 +70,7 @@ export default class About extends React.Component {
 
       </article>
 
-      <div className="map_contacts">
+      <div className="map_contacts" id="contacts">
         <h4>Наши котакты</h4>
         <div className="infoBlock">
           <p className="textBlock1">

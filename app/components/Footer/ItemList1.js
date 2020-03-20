@@ -1,35 +1,26 @@
 import React from 'react';
 import { List } from 'semantic-ui-react';
 import HeaderLink from './HeaderLink';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const ItemList1 = () => (
   <List>
     <List.Item>
       <List.Header>
-          <HeaderLink className="footer_headline" to="/ServicesPage">
-               Регламент ТО
-          </HeaderLink>
+      <Link className="footer_headline" to="/RepairPage#Info_id">Регламент ТО</Link>
       </List.Header>
     </List.Item>
     <List.Item>
-    <HeaderLink to="/ServicesPage">
-      Сроки ТО
-      </HeaderLink>
+    <Link to="/RepairPage#">Сроки ТО</Link>  {/* Вставь идентификатор в конце */}
     </List.Item>
     <List.Item>
-    <HeaderLink to="/ServicesPage">
-      Проверка авто
-      </HeaderLink>
+    <Link to="/RepairPage#">Проверка авто</Link>  {/* Вставь идентификатор в конце */}
     </List.Item>
     <List.Item>
-    <HeaderLink to="/ServicesPage">
-      ТО по километражу
-      </HeaderLink>
+      <Link to="/RepairPage#">ТО по километражу</Link>  {/* Вставь идентификатор в конце */}
     </List.Item>
     <List.Item>
-    <HeaderLink to="/ServicesPage">
-      Нормы тех. обслуживания
-      </HeaderLink>
+      <Link to="/RepairPage#"> Нормы тех. обслуживания</Link>  {/* Вставь идентификатор в конце */}
     </List.Item>
   </List>
 );

@@ -1,6 +1,7 @@
 
 .footer_headline{
     font-weight: 900;
+    font-size: 16px;
 }
 
 #footer_content{
@@ -34,6 +35,14 @@
 #wrapper p{
     margin-top: 5px;
     color: #fff;
+}
+.Footer_wrap a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+}
+.ui.list {
+    line-height: 2;
 }
 
 @media (max-width: 900px){
