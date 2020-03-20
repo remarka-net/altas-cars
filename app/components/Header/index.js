@@ -20,6 +20,8 @@ function Header() {
       $('#info').css("filter", "blur(4px)");
       $('.Services_main').css("filter", "blur(4px)");
       $('.NewsContent').css("filter", "blur(4px)");
+      $('#Main_trade').css("filter", "blur(4px)");
+      $('#m_part').css("filter", "blur(4px)");
     });
     const $menu = $('#headlines');
 $(document).mouseup(e => {
@@ -31,6 +33,8 @@ $(document).mouseup(e => {
     $('#info').css("filter", "");
     $('.Services_main').css("filter", "");
     $('.NewsContent').css("filter", "");
+    $('#Main_trade').css("filter", "");
+    $('#m_part').css("filter", "");
   }
  });
     $('#headlines').on('focusout', function() {

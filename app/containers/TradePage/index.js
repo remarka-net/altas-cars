@@ -28,7 +28,7 @@ export default class Trade extends React.Component {
     } );
     
     return (
-      <div>
+      <div id="Main_trade">
         
         <div className="Info_head">
         <p className="subtitle fancy">
