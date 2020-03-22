@@ -247,7 +247,9 @@
             top:120px;
         }
         .Main_logo {
-            width: 100%;
+            /* width: 100%;
+             */
+             width: 100%;
         }
         .header-btn div {
             width: 55%;
