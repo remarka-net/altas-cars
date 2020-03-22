@@ -8,8 +8,9 @@ import Img from './Img';
 import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
 import messages from './messages';
-import Logo from './Logo.png';
+import Logo from './Logo_new.png';
 import HeaderLink2 from './HeaderLink2';
+
 
 function Header() {
   $(document).ready(function() {

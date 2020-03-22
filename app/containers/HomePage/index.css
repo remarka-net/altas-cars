@@ -413,6 +413,19 @@
     .contact-form{
         margin-left: 2%;
     }
+        /*JUST TEST BLOCK*/
+.car_item1, .car_item2, .car_item3, .car_item4, .car_item5, .car_item6 {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: inline-block;
+            cursor: pointer;
+            background-color: transparent;
+            border-radius: 10px;
+            border: 2px solid #00e500;
+            color:#fff;                        
+            z-index: 1;
+        } 
+        /*THE END OF TEST BLOCK*/
 }
 
 @media (max-width: 1024px){
