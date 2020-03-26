@@ -55,7 +55,7 @@ body{
 
 .main_car_repair{
   display:flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -298,7 +298,13 @@ body{
   }
 }
 
+
 @media (max-width: 1200px){
+  .service_car{
+    flex:none;
+    max-width:70%;
+    max-height: 200px;
+  }
   .service_order_article {
     width: 50%;
     float: left;
@@ -329,17 +335,23 @@ body{
 }
 
 @media (max-width: 830px){
-  .service_item1 span {
+  .service_item1 {
     display: none;
+    width: 0;
+    height: 0;
+    visibility: hidden;
   }
-  .service_item_bottom span {
+  .service_item_bottom{
     display: none;
+    visibility: hidden;
   }
-  .service_item_bottom1 span{
+  .service_item_bottom1 {
     display: none;
+    visibility: hidden;
   }
-  .service_item_bottom2 span{
+  .service_item_bottom2 {
     display: none;
+    visibility: hidden;
   }
   .Services_headline {
     font-size: 1.5em;
@@ -385,6 +397,14 @@ body{
   }
 }
 @media (max-width: 500px){
+  .service_car{
+    flex:none;
+    max-width:70%;
+    max-height: 100px;
+  }
+  .car_repair{
+    margin-bottom: 5px;
+  }
   #contact_form1:target {
     width: 100%;
   }

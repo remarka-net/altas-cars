@@ -89,7 +89,7 @@ export default class About extends React.Component {
           </p>
         </div>
 
-        <ContactInfo />
+        {/* <ContactInfo /> */}
       </div>
 
       

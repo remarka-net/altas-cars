@@ -130,7 +130,7 @@ export default function Fruits() {
           </p>
         </div>
 
-        <ContactInfo />
+        {/* <ContactInfo /> */}
       </div>
       {/* MainWrapper */}
     </div>

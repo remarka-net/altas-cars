@@ -9,6 +9,10 @@
     margin:0;
 }
 
+.logo1{
+    display: none;
+}
+
     .header-btn{
     display: none;
     }
@@ -86,7 +90,7 @@
             margin: 0 auto;
         } 
         #headlines{
-        background-color:  rgba(255, 255, 255, 0.7);; 
+        background-color:  rgba(255, 255, 255, 0.7);
         position: absolute;
         top: 150px;
         left: -100%;
@@ -95,6 +99,10 @@
         transition: all .5s;
         z-index: 7;
         height: 100vh;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        -o-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
         }
         #headlines.active{
             background-color:  rgba(255, 255, 255, 0.7);
@@ -107,6 +115,11 @@
             z-index: 7;
             display: block;
             height: 100vh;
+
+            -webkit-transition: all 0.5s ease-in;
+            -moz-transition: all 0.5s ease-in;
+            -o-transition: all 0.5s ease-in;
+            transition: all 0.5s ease-in;
         }
 
         #headlines li{
@@ -161,6 +174,29 @@
         background-color: #ffffff;
         margin: 6px 0;
         }
+        .menu-container{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0);
+            display: block;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+        /* display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(90, 90, 90, 0.3);
+        z-index: 9999;
+        transition: all .5s; */
+        }
 
     }
 
@@ -173,10 +209,16 @@
             line-height: 2;
         }
         #headlines{
-            transition: all .2s;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
         }
         #headlines.active{
-            transition: all .2s;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            -o-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
         }
     }
 
