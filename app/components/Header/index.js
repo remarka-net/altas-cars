@@ -8,28 +8,53 @@ import Img from './Img';
 import NavBar from './NavBar';
 import HeaderLink from './HeaderLink';
 import messages from './messages';
-import Logo from './Logo_new.png';
+import Logo from './Logo.png';
+import Logo_m from './Logo_new.png';
 import HeaderLink2 from './HeaderLink2';
 
 
 function Header() {
   $(document).ready(function() {
-    $('.header-btn').on('click', function(){
-      $('#headlines').addClass('active').focus();
-      $('.header-btn').attr('id', 'active_menu');
-      $('#main_div').css("filter", "blur(4px)");
+
+    if($( window ).width() < 1201){
+      $(".logo1").css("display","none"); 
+      $('.logo2').css("display","block");
+    }else{
+      $(".logo1").css("display","block"); 
+      $('.logo2').css("display","none");
+    }
+
+     $('.header-btn').on('click', function(){  //при клике на кнопку меню
+      if($('.header-btn').hasClass('active_menu')){
+        $menu.removeClass('active');
+        $('.header-btn').removeClass('active_menu');
+        $('#main_div').css("filter", "");
+        $('#info').css("filter", "");
+        $('.Services_main').css("filter", "");
+        $('.NewsContent').css("filter", "");
+        $('#Main_trade').css("filter", "");
+        $('#m_part').css("filter", "");
+      }else{
+        $('#headlines').addClass('active'); 
+        $('.header-btn').addClass('active_menu');
+      //just bluring our main div
+      $('#main_div').css("filter", "blur(4px)");1
       $('#info').css("filter", "blur(4px)");
       $('.Services_main').css("filter", "blur(4px)");
       $('.NewsContent').css("filter", "blur(4px)");
       $('#Main_trade').css("filter", "blur(4px)");
       $('#m_part').css("filter", "blur(4px)");
+      }
     });
+
     const $menu = $('#headlines');
-$(document).mouseup(e => {
-   if (!$menu.is(e.target) // if the target of the click isn't the container...
-   && $menu.has(e.target).length === 0) // ... nor a descendant of the container
-   {
+    const $button = $('.header-btn');
+
+  $(document).mouseup(e => {
+   if (!$menu.is(e.target) && !$button.is(e.target)// if the target of the click isn't the container...
+   && $menu.has(e.target).length === 0)  {      // ... nor a descendant of the container
     $menu.removeClass('active');
+    $('.header-btn').removeClass('active_menu');
     $('#main_div').css("filter", "");
     $('#info').css("filter", "");
     $('.Services_main').css("filter", "");
@@ -38,30 +63,17 @@ $(document).mouseup(e => {
     $('#m_part').css("filter", "");
   }
  });
-    $('#headlines').on('focusout', function() {
-      $('#headlines').removeClass('active');
-      $('#main_div').css("filter", "");
-    });
-
-    $('#active_menu').on('click', function(){
-      $('#headlines').removeClass('active');
-      $('#active_menu').removeAttr('id');
-      $('#main_div').css("filter", "");
-    });
-
     $( '#headlines a' ).on("click", function(){
       $('#headlines').removeClass('active');
+      $('.header-btn').removeClass('active_menu');
       $('#main_div').css("filter", "");
     });
     $( 'a[href*="/"]').on("click", function(){
       $('#headlines').removeClass('active');
+      $('.header-btn').removeClass('active_menu');
       $('#main_div').css("filter", "");
     });
   });
-
-  // filter: blur(4px);
-  
-
   return (
     <header className="main">
       <div className="header-btn">
@@ -71,7 +83,9 @@ $(document).mouseup(e => {
       </div>
 
       <HeaderLink2 to="/">
-        <Img src={Logo} className="Main_logo" id="Logo" />
+        <Img className="Main_logo logo1" src={Logo}  id="Logo" />
+        <Img className="Main_logo logo2" src={Logo_m}  id="Logo" />
+        <img src="" alt=""/>
       </HeaderLink2>
 
       <ul id="headlines">

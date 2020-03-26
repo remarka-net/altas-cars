@@ -172,6 +172,12 @@
         .header_contacts a{
             line-height: 2;
         }
+        #headlines{
+            transition: all .2s;
+        }
+        #headlines.active{
+            transition: all .2s;
+        }
     }
 
     @media (max-width: 900px){
