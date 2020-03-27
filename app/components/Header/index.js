@@ -17,17 +17,8 @@ function Header() {
 
     if($( window ).width() < 1201){
       $('.logo2').css("display","block");
-    }else{
-      $(".logo1").css("display","block"); 
-      $('.logo2').css("display","none");
-    }
-
-  //   .css({
-  //     'font-size' : '10px',
-  //     'width' : '30px',
-  //     'height' : '10px'
-  //  });
-
+    
+    
      $('.header-btn').on('click', function(){  //при клике на кнопку меню
       if($('.header-btn').hasClass('active_menu')){
         $menu.removeClass('active');
@@ -52,7 +43,7 @@ function Header() {
           height: '100%'
       });
       //just bluring our main div
-      $('#main_div').css("filter", "blur(4px)");1
+      $('#main_div').css("filter", "blur(4px)");
       $('#info').css("filter", "blur(4px)");
       $('.Services_main').css("filter", "blur(4px)");
       $('.NewsContent').css("filter", "blur(4px)");
@@ -93,17 +84,23 @@ function Header() {
     });
       $('#main_div').css("filter", "");
     });
-    $( 'a[href*="/"]').on("click", function(){
-      $('#headlines').removeClass('active');
-      $('.header-btn').removeClass('active_menu');
-      $('.menu-container').css({"z-index":"-1", "background":"rgba(0,0,0,0)"});
-      $('html, body').css({
-        overflow: 'auto',
-        height: 'auto'
-    });
-      $('#main_div').css("filter", "");
-    });
+    // $( 'a[href*="/"]').on("click", function(){
+    // //   $('#headlines').removeClass('active');
+    // //   $('.header-btn').removeClass('active_menu');
+    // //   $('.menu-container').css({"z-index":"-1", "background":"rgba(0,0,0,0)"});
+    // //   $('html, body').css({
+    // //     overflow: 'auto',
+    // //     height: 'auto'
+    // // });
+    //   $('#main_div').css("filter", "");
+    // });
+  }else{
+    $(".logo1").css("display","block"); 
+    $('.logo2').css("display","none");
+  }
+  
   });
+
   return (
     <header className="main">
       <div className="header-btn">
