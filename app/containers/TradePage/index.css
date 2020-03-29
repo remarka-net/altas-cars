@@ -235,6 +235,9 @@
 }
 @media (max-width: 400px){
   .trade_block {
+    border-top: none;
+  }
+  .trade_block {
     width: 100%;
 }
 .trade_block .order_img {
