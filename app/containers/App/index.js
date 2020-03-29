@@ -43,10 +43,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="React.js Boilerplate"
+        titleTemplate="%s - ALTAS"
+        defaultTitle="ALTAS"
       >
-        <meta name="description" content="A React.js application" />
+        <meta name="description" content="ALTAS-cars" />
         {/* <script
           async
           defer
