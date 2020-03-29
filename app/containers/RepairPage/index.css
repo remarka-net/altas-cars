@@ -704,6 +704,11 @@ ul.tabs li a img {
   width: 70px;
 }
   }
+  @media (max-width:400px){
+    #Auto_table th p, #Auto_table1 th p {
+      font-size: 1em;
+    }
+  }
   @media (max-width: 350px){
     .repair_headline {
       font-size: 1.4em;
