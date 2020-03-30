@@ -13,7 +13,7 @@ export default function ContactUs() {
         'gmail',
         'car_diagnostic',
         e.target,
-        'user_Gaxs51wraDWa3FxtLGuJ9',
+        'user_gVUee7bxzx7Obe10GOfuU',
       )
       
       .then(
@@ -46,10 +46,12 @@ export default function ContactUs() {
 
       <input
         required
-        type="numeric"
+        minLength="10"
+        type="text"
         placeholder="Номер телефона*"
         name="user_phone"
       />
+      
 
       <input type="email" placeholder="E-mail" name="user_email" />
 

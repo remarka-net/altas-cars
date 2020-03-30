@@ -11,9 +11,9 @@ export default function ContactUs() {
     emailjs
       .sendForm(
         'gmail',
-        'template_CVaJwcZ9',
+        'template_hsjTwTVo',
         e.target,
-        'user_Gaxs51wraDWa3FxtLGuJ9',
+        'user_gVUee7bxzx7Obe10GOfuU',
       )
       .then(
         result => {
@@ -46,7 +46,8 @@ export default function ContactUs() {
 
       <input
         required
-        type="numeric"
+        minLength="10"
+        type="text"
         placeholder="Номер телефона*"
         name="user_phone"
       />
