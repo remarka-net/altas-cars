@@ -89,6 +89,44 @@
     margin-bottom: 10px;
 }
 
+/*---------------------------OUR CARS BLOCK--------------------------------------------*/
+
+.service_order{
+  margin-top: 1.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  display:flex;
+}
+
+.service_order_pic {
+  width:50%;
+  float:left;
+  display: block;
+  border-radius: 10px;
+}
+
+.service_order_article{
+  width: 50%;
+  float:left;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height:inherit;
+  text-align: center;
+}
+
+.service_order_article span{
+  text-align: center;
+  display: block;
+  font-size: 1.3em;
+}
+
+.service_order_article p{
+  text-align: left;
+  font-size: 1em;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
 
 /* 
 
