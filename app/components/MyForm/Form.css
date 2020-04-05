@@ -98,6 +98,14 @@
   }
   .close:hover {background: #e6e6ff;}
 
+@media (max-width: 850px){
+    #okno img{
+        width: 50%;
+      height: 50%;
+      padding-top: 0;
+      padding-bottom: 5px;
+    }
+}
   @media (max-width: 500px){
       .contact-form{
         width: 100%;

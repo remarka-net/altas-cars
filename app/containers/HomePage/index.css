@@ -396,8 +396,9 @@
         position: relative;
         min-width: max-content;
         padding-right: 0;
-        padding-left: 25px;
+        padding-left: 30px;
         background-position: left;
+        background-image: url('clone-regular_white.svg');
     }
     .car_item1_extend, .car_item2_extend, .car_item3_extend, .car_item4_extend, .car_item5_extend, .car_item6_extend {
         position: relative;
