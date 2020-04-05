@@ -26,6 +26,13 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
+  @media (max-width: 399px){
+    #Info_id{
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
   #app {
     min-height: 100%;
     min-width: 100%;
