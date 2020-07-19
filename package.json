@@ -86,7 +86,7 @@
     "invariant": "2.2.4",
     "ip": "1.1.5",
     "jquery": "^3.4.1",
-    "lodash": "4.17.13",
+    "lodash": "4.17.19",
     "minimist": "1.2.0",
     "newsapi": "^2.4.0",
     "prismic-javascript": "^2.7.0",
